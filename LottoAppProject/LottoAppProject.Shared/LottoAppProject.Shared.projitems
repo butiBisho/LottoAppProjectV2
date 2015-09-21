@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>f002ac10-f4a4-40ff-b711-3afd2774bcd1</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>LottoAppProject</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="$(MSBuildThisFileDirectory)App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="$(MSBuildThisFileDirectory)App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Class_with_Functions\buti.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Class_with_Functions\CheckGameType.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Class_with_Functions\DisplayMessage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Class_with_Functions\DisplayResults.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Class_with_Functions\GetResults.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Class_with_Functions\Lotto.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Class_with_Functions\Shared.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Class_with_Functions\ViewModelBase.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model_Class\LottoLiveResults.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model_Class\LottoPlusResults.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model_Class\LottoSaved.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model_Class\PowerBallResults.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model_Class\PowerBallSaved.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model_Class\User.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)SQLITE\SQLite.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)SQLITE\SQLiteAsync.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="$(MSBuildThisFileDirectory)Image\01XSAN-IM1001-sands-resort-mauritius-1475.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Image\lottery-balls-sphere-46068011.jpg" />
+  </ItemGroup>
+</Project>
