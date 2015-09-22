@@ -38,11 +38,6 @@ namespace LottoAppProject
             }
         }
 
-        private void AppBarButton_Click(object sender, RoutedEventArgs e)
-        {
-            Frame.GoBack();
-        }
-
         private void AppBarButton_Click_1(object sender, RoutedEventArgs e)
         {
             this.Frame.Navigate(typeof(SaveResultsPowerball));
@@ -111,6 +106,11 @@ namespace LottoAppProject
             {
                 db.Execute("Delete from PowerBallResults where Id = ?", id);
             }
+        }
+
+        private void AppBarButton_Click(object sender, RoutedEventArgs e)
+        {
+            Frame.GoBack();
         }
 
 
