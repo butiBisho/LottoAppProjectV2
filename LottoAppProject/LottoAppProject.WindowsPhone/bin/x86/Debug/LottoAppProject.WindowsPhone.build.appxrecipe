@@ -50,6 +50,9 @@
       <PackagePath>Assets\WideLogo.scale-240.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Buti Samuel Bisho\Documents\Visual Studio 2013\Projects\LottoAppProject\LottoAppProject\LottoAppProject.Shared\Image\01XSAN-IM1001-sands-resort-mauritius-1475.jpg">
+      <PackagePath>Image\01XSAN-IM1001-sands-resort-mauritius-1475.jpg</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Buti Samuel Bisho\Documents\Visual Studio 2013\Projects\LottoAppProject\LottoAppProject\LottoAppProject.Shared\Image\lottery-balls-sphere-46068011.jpg">
       <PackagePath>Image\lottery-balls-sphere-46068011.jpg</PackagePath>
     </AppxPackagedFile>

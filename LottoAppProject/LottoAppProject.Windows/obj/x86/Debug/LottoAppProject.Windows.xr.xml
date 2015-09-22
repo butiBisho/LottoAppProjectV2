@@ -145,6 +145,7 @@
       <RootProperty Name="Source" />
       <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Stretch" />
     </RootType>
     <RootType FullName="LottoAppProject.MainPage" />
     <RootType FullName="LottoAppProject.NumberGenerator" />

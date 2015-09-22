@@ -38,9 +38,9 @@
         <Button x:ConnectionId='4' x:Name="btnSetLottoOn" Content="ON" HorizontalAlignment="Left" Margin="875,308,0,0" VerticalAlignment="Top" Width="149" FontSize="12" Height="48"                             Background="#FF1263B4" FontStyle="Italic" Foreground="#FFD8A316"/>
         <TextBlock x:Name="txtDisplay" HorizontalAlignment="Left" Margin="479,319,0,0" TextWrapping="Wrap" Text="Lotto" VerticalAlignment="Top" Height="29" Width="131" Foreground="#FFF5F0F0" FontSize="20" TextAlignment="Center" FontStyle="Italic"/>
         <TextBlock HorizontalAlignment="Left" Foreground="#FFF5F0F0" Margin="479,412,0,0" TextWrapping="Wrap" Text="Powerball" VerticalAlignment="Top" Width="131" Height="30" FontSize="20" TextAlignment="Center" FontStyle="Italic"/>
-        <Button x:Name="btnSetLottoPlusOff" Content="OFF" HorizontalAlignment="Left" Margin="637,401,0,0" VerticalAlignment="Top" Width="149" FontSize="12" Height="47" Background="#FF1263B4" FontStyle="Italic" Foreground="#FFD8A316"/>
-        <Button x:Name="btnSetLottoPlusOn" Foreground="#FFD8A316" Content="ON" HorizontalAlignment="Left" Margin="875,401,0,0" VerticalAlignment="Top" Width="149" FontSize="12" Height="47" Background="#FF1263B4" FontStyle="Italic"/>
-        <AppBarButton x:ConnectionId='5' HorizontalAlignment="Left" Icon="Back" Label="Back" Margin="1,2,0,0" VerticalAlignment="Top"                           />
+        <Button x:ConnectionId='5' x:Name="btnSetLottoPlusOff" Content="OFF" HorizontalAlignment="Left" Margin="637,401,0,0" VerticalAlignment="Top" Width="149" FontSize="12" Height="47" Background="#FF1263B4" FontStyle="Italic" Foreground="#FFD8A316"                                 />
+        <Button x:ConnectionId='6' x:Name="btnSetLottoPlusOn" Foreground="#FFD8A316" Content="ON" HorizontalAlignment="Left" Margin="875,401,0,0" VerticalAlignment="Top" Width="149" FontSize="12" Height="47" Background="#FF1263B4" FontStyle="Italic"                                />
+        <AppBarButton x:ConnectionId='7' HorizontalAlignment="Left" Icon="Back" Label="Back" Margin="1,2,0,0" VerticalAlignment="Top"                           />
     </Grid>
 </Page>
 

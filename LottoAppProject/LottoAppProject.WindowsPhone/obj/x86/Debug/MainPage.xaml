@@ -18,8 +18,8 @@
         <Button x:ConnectionId='2' x:Name="btnSettings" Content="Settings" Width="168" Height="70"  Background="#FF1263B4" Foreground="#FFD8A316" Margin="220,479,0,91"                          />
         <Button x:ConnectionId='3' x:Name="btnGenerate" Content="Generate"  Height="70" Width="168" Background="#FF1263B4" Foreground="#FFD8A316" Margin="212,356,0,214"                          />
         <Button x:ConnectionId='4' x:Name="btnDetails" Content="Add Details" Width="168" Height="70"  Background="#FF1263B4" Foreground="#FFD8A316" Margin="16,356,0,214"                         />
-        <Image Grid.Row="0" Source="Image/lottery-balls-sphere-46068011.jpg" HorizontalAlignment="Left" VerticalAlignment="Top"/>
-        <TextBlock Margin="57,262,2,305" TextWrapping="Wrap" Text="LottoApp" Width="341" HorizontalAlignment="Center" FontSize="50" Foreground="#FFF9F8F8" FlowDirection="RightToLeft"/>
+        <Image Grid.Row="0" Source="Image/01XSAN-IM1001-sands-resort-mauritius-1475.jpg" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+        <TextBlock Margin="0,0,59,567" TextWrapping="Wrap" Text="LottoApp" Width="341" HorizontalAlignment="Center" FontSize="50" Foreground="#FFF9F8F8" FlowDirection="LeftToRight"/>
 
     </Grid>
 </Page>
