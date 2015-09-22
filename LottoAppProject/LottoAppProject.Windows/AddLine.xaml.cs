@@ -40,11 +40,6 @@ namespace LottoAppProject
             Frame.GoBack();
         }
 
-        private void AppBarButton_Click_1(object sender, RoutedEventArgs e)
-        {
-            Frame.GoBack();
-        }
-
         private void AppBarButton_Click_2(object sender, RoutedEventArgs e)
         {
             this.Frame.Navigate(typeof(AddLine));

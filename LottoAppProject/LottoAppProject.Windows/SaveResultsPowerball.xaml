@@ -11,43 +11,37 @@
         <AppBar IsSticky="True">
             <Grid>
                 <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="*"/>
-                    <ColumnDefinition Width="4*"/>
-                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="225*"/>
+                    <ColumnDefinition Width="254*"/>
+                    <ColumnDefinition Width="204*"/>
                 </Grid.ColumnDefinitions>
-                <AppBarButton Grid.Column="2" HorizontalAlignment="Right" Label="Back" Icon="Back" Click="AppBarButton_Click" Height="106" Margin="0,0,0,-2"/>
-                <AppBarButton Grid.Column="2" HorizontalAlignment="Center" Label="Refresh" Icon="Refresh" Click="AppBarButton_Click_1" Height="106" Margin="64,0,63,-2"/>
-                <AppBarButton x:Name="appbarSaveResults" Grid.Column="1" HorizontalAlignment="Center" Label="Save" Icon="Save" Click="appbarSaveResults_Click"/>
-                <AppBarButton x:Name="appbarAddLatestResults" Grid.Column="0" Label="Store Latest Lotto Results" Click="appbarAddLatestResults_Click"/>
+                <AppBarButton Grid.Column="1" HorizontalAlignment="Center" Label="Refresh" Icon="Refresh" Click="AppBarButton_Click_1" Height="106" Margin="323,0,85,-2" Width="100"/>
+                <AppBarButton x:Name="appbarSaveResults" Grid.Column="1" HorizontalAlignment="Center" Label="Save" Icon="Save" Click="appbarSaveResults_Click" Height="88" Margin="183,0,225,0" Width="100"/>
+                <AppBarButton x:Name="appbarAddLatestResults" Grid.Column="1" Label="Store Latest Lotto Results" Click="appbarAddLatestResults_Click" Height="104" Width="100" Margin="26,0,0,0"/>
             </Grid>
         </AppBar>
     </Page.BottomAppBar>
 
-    <Grid>
-        <Grid.Background>
-            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
-                <GradientStop Color="Black" Offset="0"/>
-                <GradientStop Color="#FF8EDA7D" Offset="1"/>
-            </LinearGradientBrush>
-        </Grid.Background>
+    <Grid Background="#FF38B2B8">
 
-        <ComboBox x:Name="cmbType" HorizontalAlignment="Left" Margin="316,39,0,0" VerticalAlignment="Top" Width="205" BorderBrush="#CC27ACD3">
+        <ComboBox x:Name="cmbType" HorizontalAlignment="Left" Margin="320,99,0,0" VerticalAlignment="Top" Width="205" BorderBrush="#CC27ACD3">
             <ComboBoxItem Content="PowerBall"/>
         </ComboBox>
-        <TextBlock HorizontalAlignment="Left" Margin="456,93,0,0" TextWrapping="Wrap" Text="Number 1" VerticalAlignment="Top" Foreground="#FFFFF9F9" FontSize="20" FontStyle="Italic" TextAlignment="Center"/>
-        <TextBlock HorizontalAlignment="Left" Margin="456,183,0,0" TextWrapping="Wrap" Text="Number 2" VerticalAlignment="Top" Foreground="#FFFFF9F9" FontSize="20" FontStyle="Italic" TextAlignment="Center"/>
-        <TextBlock HorizontalAlignment="Left" Margin="456,269,0,0" TextWrapping="Wrap" Text="Number 3" VerticalAlignment="Top" Foreground="#FFFFF9F9" FontSize="20" FontStyle="Italic" TextAlignment="Center"/>
-        <TextBlock HorizontalAlignment="Left" Margin="456,369,0,0" TextWrapping="Wrap" Text="Number 4" VerticalAlignment="Top" Foreground="#FFFFF9F9" FontSize="20" FontStyle="Italic" TextAlignment="Center"/>
-        <TextBlock HorizontalAlignment="Left" Margin="456,458,0,0" TextWrapping="Wrap" Text="Number 5" VerticalAlignment="Top" Foreground="#FFFFF9F9" FontSize="20" FontStyle="Italic" TextAlignment="Center"/>
-        <TextBox x:Name="txtOne" HorizontalAlignment="Left" Margin="599,88,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="111" Foreground="#FF131212" BorderBrush="#FF097EF3"/>
-        <TextBox x:Name="txtTwo" HorizontalAlignment="Left" Margin="599,177,0,0" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="0.588,2.375" Width="111" Foreground="#FF131212" BorderBrush="#FF097EF3"/>
-        <TextBox x:Name="txtThree" HorizontalAlignment="Left" Margin="599,266,0,0" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="0.588,2.375" Width="111" Foreground="#FF131212" BorderBrush="#FF097EF3"/>
-        <TextBox x:Name="txtFour" HorizontalAlignment="Left" Margin="599,362,0,0" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="0.588,2.375" Width="111" Foreground="#FF131212" BorderBrush="#FF097EF3"/>
-        <TextBox x:Name="txtFive" HorizontalAlignment="Left" Margin="599,451,0,0" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="0.588,2.375" Width="111" Foreground="#FF131212" BorderBrush="#FF097EF3"/>
-        <TextBlock HorizontalAlignment="Left" Margin="454,544,0,0" TextWrapping="Wrap" Text="Bonus" VerticalAlignment="Top" Foreground="#FFFFF9F9" FontSize="20" FontStyle="Italic" TextAlignment="Center"/>
-        <TextBox x:Name="txtBonus" HorizontalAlignment="Left" Margin="599,538,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="111" Foreground="#FF131212" BorderBrush="#FF097EF3"/>
+        <TextBlock HorizontalAlignment="Left" Margin="482,201,0,0" TextWrapping="Wrap" Text="Number 1" VerticalAlignment="Top" Foreground="#FFFFF9F9" FontSize="20" TextAlignment="Center"/>
+        <TextBlock HorizontalAlignment="Left" Margin="482,269,0,0" TextWrapping="Wrap" Text="Number 2" VerticalAlignment="Top" Foreground="#FFFFF9F9" FontSize="20" TextAlignment="Center"/>
+        <TextBlock HorizontalAlignment="Left" Margin="482,333,0,0" TextWrapping="Wrap" Text="Number 3" VerticalAlignment="Top" Foreground="#FFFFF9F9" FontSize="20" TextAlignment="Center"/>
+        <TextBlock HorizontalAlignment="Left" Margin="482,409,0,0" TextWrapping="Wrap" Text="Number 4" VerticalAlignment="Top" Foreground="#FFFFF9F9" FontSize="20" TextAlignment="Center"/>
+        <TextBlock HorizontalAlignment="Left" Margin="482,484,0,0" TextWrapping="Wrap" Text="Number 5" VerticalAlignment="Top" Foreground="#FFFFF9F9" FontSize="20" TextAlignment="Center"/>
+        <TextBox x:Name="txtOne" HorizontalAlignment="Left" Margin="625,196,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="111" Foreground="#FF131212" BorderBrush="#FF097EF3"/>
+        <TextBox x:Name="txtTwo" HorizontalAlignment="Left" Margin="625,263,0,0" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="0.588,2.375" Width="111" Foreground="#FF131212" BorderBrush="#FF097EF3"/>
+        <TextBox x:Name="txtThree" HorizontalAlignment="Left" Margin="625,330,0,0" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="0.588,2.375" Width="111" Foreground="#FF131212" BorderBrush="#FF097EF3"/>
+        <TextBox x:Name="txtFour" HorizontalAlignment="Left" Margin="625,402,0,0" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="0.588,2.375" Width="111" Foreground="#FF131212" BorderBrush="#FF097EF3"/>
+        <TextBox x:Name="txtFive" HorizontalAlignment="Left" Margin="625,477,0,0" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="0.588,2.375" Width="111" Foreground="#FF131212" BorderBrush="#FF097EF3"/>
+        <TextBlock HorizontalAlignment="Left" Margin="480,560,0,0" TextWrapping="Wrap" Text="Bonus" VerticalAlignment="Top" Foreground="#FFFFF9F9" FontSize="20" FontStyle="Italic" TextAlignment="Center"/>
+        <TextBox x:Name="txtBonus" HorizontalAlignment="Left" Margin="625,554,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="111" Foreground="#FF131212" BorderBrush="#FF097EF3"/>
         <AppBarButton HorizontalAlignment="Left" Icon="Back" Label="Back" Margin="0,-1,0,0" VerticalAlignment="Top" Click="AppBarButton_Click"/>
-        <DatePicker x:Name="dpDate" HorizontalAlignment="Left" Margin="804,38,0,0" VerticalAlignment="Top" MonthFormat="{}{month.integer}"/>
+        <DatePicker x:Name="dpDate" HorizontalAlignment="Left" Margin="722,100,0,0" VerticalAlignment="Top" MonthFormat="{}{month.integer}"/>
         <Button Content="Button" HorizontalAlignment="Left" Margin="969,435,0,0" VerticalAlignment="Top" Click="Button_Click"/>
+        <TextBlock HorizontalAlignment="Center" Margin="532,30,562,0" TextWrapping="Wrap" Text="Lotto &amp; LottoPlus" VerticalAlignment="Top" Height="25" Width="272" FontSize="25" Foreground="#FFF3F0F0"/>
     </Grid>
 </Page>

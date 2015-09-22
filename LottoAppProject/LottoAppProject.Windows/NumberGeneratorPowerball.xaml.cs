@@ -101,11 +101,6 @@ namespace LottoAppProject
             this.Frame.Navigate(typeof(NumberGenerator));
         }
 
-        private void AppBarButton_Click_1(object sender, RoutedEventArgs e)
-        {
-            Frame.GoBack();
-        }
-
         private void appbarSave_Click(object sender, RoutedEventArgs e)
         {
             try

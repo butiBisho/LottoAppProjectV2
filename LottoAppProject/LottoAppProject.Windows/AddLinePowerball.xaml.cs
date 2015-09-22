@@ -40,11 +40,6 @@ namespace LottoAppProject
             this.Frame.Navigate(typeof(AddLinePowerball));
         }
 
-        private void AppBarButton_Click_1(object sender, RoutedEventArgs e)
-        {
-            Frame.GoBack();
-        }
-
         private void AppBarButton_Click_2(object sender, RoutedEventArgs e)
         {
             this.Frame.Navigate(typeof(AddLine));
@@ -83,6 +78,11 @@ namespace LottoAppProject
             {
                 display.msgBox(ex.Message);
             }
+        }
+
+        private void AppBarButton_Click_1(object sender, RoutedEventArgs e)
+        {
+            Frame.GoBack();
         }
 
     }

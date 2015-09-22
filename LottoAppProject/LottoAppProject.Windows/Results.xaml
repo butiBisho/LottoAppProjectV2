@@ -11,56 +11,36 @@
         <AppBar IsSticky="True">
             <Grid>
                 <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="4*"/>
                     <ColumnDefinition Width="2*"/>
-                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="4*"/>
                     <ColumnDefinition/>
                 </Grid.ColumnDefinitions>
-                <AppBarButton Grid.Column="3" HorizontalAlignment="Right" Label="Back" Icon="Back" Click="AppBarButton_Click_1"/>
-                <AppBarButton Grid.Column="3"  HorizontalAlignment="Center" Label="Refresh" Icon="Refresh" Click="AppBarButton_Click_2"/>
-                <AppBarButton Grid.Column="0"  HorizontalAlignment="Left" Label="Delete" Icon="Delete" Click="AppBarButton_Click_3"/>
+                <AppBarButton Grid.Column="1"  HorizontalAlignment="Right" Label="Refresh" Icon="Refresh" Click="AppBarButton_Click_2" Height="88" Margin="74,0" Width="100"/>
+                <AppBarButton Grid.Column="1"  HorizontalAlignment="Left" Label="Delete" Icon="Delete" Click="AppBarButton_Click_3" Height="88" Width="100"/>
             </Grid>
         </AppBar>
     </Page.BottomAppBar>
 
-    <Grid>
-        <Grid.Background>
-            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
-                <GradientStop Color="Black" Offset="0"/>
-                <GradientStop Color="#FF8EDA7D" Offset="1"/>
-            </LinearGradientBrush>
-        </Grid.Background>
-        <Grid.RowDefinitions>
-            <RowDefinition Height="100" />
-            <RowDefinition Height="350" />
-            <RowDefinition Height="100" />
-        </Grid.RowDefinitions>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="600" />
-        </Grid.ColumnDefinitions>
-        <Grid Grid.Row="0" >
-            <ComboBox x:Name="cmbGameType" HorizontalAlignment="Right" Margin="1139,21,-744,0" VerticalAlignment="Top" Width="205" BorderBrush="#CC27ACD3">
+    <Grid Background="#FF38B2B8">
+        <ComboBox x:Name="cmbGameType" VerticalAlignment="Top" BorderBrush="#CC27ACD3" Margin="841,74,277,0" Height="42">
                 <ComboBoxItem Content="Lotto"/>
                 <ComboBoxItem Content="LottoPlus"/>
                 <ComboBoxItem Content="PowerBall"/>
             </ComboBox>
-        </Grid>
-        <Grid Grid.Row="1" Grid.Column="0" Margin="300,5,-373,95" Grid.RowSpan="2">
-            <TextBlock HorizontalAlignment="Left" Margin="255,20,0,0" Grid.Row="1" TextWrapping="Wrap" Text="{Binding jus}" VerticalAlignment="Top"/>
-            <!--<ListBox x:Name="LstResults" HorizontalAlignment="Left" Height="100" Margin="89,58,0,0" VerticalAlignment="Top" Width="501" BorderBrush="#FFF32A0B"/>-->
-            <TextBlock HorizontalAlignment="Left" Margin="458,188,-87,0" TextWrapping="Wrap" Text="Compare with the Saved Numbers" VerticalAlignment="Top" Foreground="#FFF7F4F4" FontSize="20" TextAlignment="Center"/>
-            <TextBlock HorizontalAlignment="Left" Margin="512,20,0,0" TextWrapping="Wrap" Text="Winning Results" VerticalAlignment="Top" Foreground="#FFF7F4F4" FontSize="20" TextAlignment="Center"/>
-        </Grid>
-        <Grid Grid.Row="2" Grid.Column="0" Margin="624,44,-653,-104">
-            <DatePicker x:Name="dpDate" HorizontalAlignment="Left" Height="41" Margin="47,23,0,0" VerticalAlignment="Top" Width="319" DayVisible="True"/>
-            <Button x:Name="btnSearch" Content="Search" HorizontalAlignment="Left" Margin="47,72,0,0" VerticalAlignment="Top" Width="136" Background="#FF1263B4" FontStyle="Italic" Foreground="#FFD8A316" Height="50" Click="btnSearch_Click"/>
 
-            <Button x:Name="btnSaved" Content="Saved Numbers" HorizontalAlignment="Left" Margin="250,72,0,0" VerticalAlignment="Top" Width="147"  Background="#FF1263B4" FontStyle="Italic" Foreground="#FFD8A316" Height="50" Click="btnSaved_Click"/>
-        </Grid>
-        <Grid Grid.Row="1" Margin="384,5,-707,95" Grid.RowSpan="2">
-            <ListBox x:Name="lstDisplaySaved" HorizontalAlignment="Left" Height="93" Margin="254,232,0,0" VerticalAlignment="Top" Width="500" BorderBrush="#FFF32A0B"/>
-        </Grid>
-        <StackPanel x:Name="testing" Orientation="Horizontal" HorizontalAlignment="Left" Height="70" Margin="632,70,-428,0" Grid.Row="1" VerticalAlignment="Top" Width="396"/>
-        <StackPanel x:Name="bonus" Orientation="Horizontal" Height="70" Margin="1088,70,-588,0" Grid.Row="1" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="255,18,0,0" TextWrapping="Wrap" Text="{Binding jus}" VerticalAlignment="Top" Height="15"/>
+        <TextBlock HorizontalAlignment="Left" Margin="477,345,0,0" TextWrapping="Wrap" Text="Compare with the Saved Numbers" VerticalAlignment="Top" Foreground="#FFF7F4F4" FontSize="30" TextAlignment="Center" Height="45"/>
+        <TextBlock HorizontalAlignment="Left" Margin="569,193,0,0" TextWrapping="Wrap" Text="Winning Results" VerticalAlignment="Top" Foreground="#FFF7F4F4" FontSize="30" TextAlignment="Center"/>
+
+        <DatePicker x:Name="dpDate" HorizontalAlignment="Left" Height="41" Margin="683,616,0,0" VerticalAlignment="Top" Width="319" DayVisible="True"/>
+        <Button x:Name="btnSearch" Content="Browse Previous results" HorizontalAlignment="Left" Margin="396,613,0,0" VerticalAlignment="Top" Width="243" Background="#FF1263B4" Foreground="#FFD8A316" Height="50" Click="btnSearch_Click" FontFamily="Global User Interface"/>
+        <Button x:Name="btnSaved" Content="Saved Numbers" HorizontalAlignment="Left" Margin="396,480,0,0" VerticalAlignment="Top" Width="242"  Background="#FF1263B4" Foreground="#FFD8A316" Height="50" Click="btnSaved_Click" FontFamily="Global User Interface"/>
+
+        <ListBox x:Name="lstDisplaySaved" HorizontalAlignment="Left" Height="93" Margin="396,390,0,0" VerticalAlignment="Top" Width="500" BorderBrush="#FFF32A0B"/>
+        <StackPanel x:Name="testing" Orientation="Horizontal" HorizontalAlignment="Left" Height="70" Margin="403,243,0,0" VerticalAlignment="Top" Width="396"/>
+        <StackPanel x:Name="bonus" Orientation="Horizontal" Height="70" Margin="846,243,401,0" VerticalAlignment="Top"/>
+        <AppBarButton HorizontalAlignment="Left" Icon="Back" Label="Back" Margin="4,4,0,0" VerticalAlignment="Top" Click="AppBarButton_Click_4"/>
+        <TextBlock HorizontalAlignment="Left" Margin="322,74,0,0" TextWrapping="Wrap" Text="Lotto Plus Results" VerticalAlignment="Top" Height="30" Width="304" FontSize="30"/>
     </Grid>
 </Page>
