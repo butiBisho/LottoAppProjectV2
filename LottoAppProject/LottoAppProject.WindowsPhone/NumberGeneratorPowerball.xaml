@@ -17,19 +17,13 @@
         </CommandBar>
     </Page.BottomAppBar>
 
-    <Grid>
-        <Grid.Background>
-            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
-                <GradientStop Color="Black" Offset="0"/>
-                <GradientStop Color="#FF8EDA7D" Offset="1"/>
-            </LinearGradientBrush>
-        </Grid.Background>
+    <Grid Background="#FF38B2B8">
         <TextBlock Height="40" HorizontalAlignment="Left" Margin="37,53,0,0" x:Name ="errormessage" VerticalAlignment="Top" Width="336" Foreground="#FF131212" FontSize="30"/>
         <!--<ListBox x:Name="lstShow" HorizontalAlignment="Left" Height="102" Margin="212,168,0,0" VerticalAlignment="Top" Width="427"/>-->
-        <Button x:Name="btnGenerate" Content="Generate" HorizontalAlignment="Left" Margin="30,355,0,0" VerticalAlignment="Top" Width="139" Click="btnGenerate_Click" Background="#FF1263B4" Foreground="#FFD8A316" FontStyle="Italic"/>
-        <Button x:Name="btnSave" Content="Save" HorizontalAlignment="Left" Margin="220,356,0,0" VerticalAlignment="Top" Width="140" Click="btnSave_Click" Background="#FF1263B4" Foreground="#FFD8A316" FontStyle="Italic"/>
-        <Button x:Name="btnTest" Content="Add Line" HorizontalAlignment="Left" Margin="222,483,0,0" VerticalAlignment="Top" Click="btnTest_Click" Width="139" Background="#FF1263B4" Foreground="#FFD8A316" FontStyle="Italic"/>
+        <Button x:Name="btnGenerate" Content="Generate" HorizontalAlignment="Left" Margin="30,355,0,0" VerticalAlignment="Top" Width="139" Click="btnGenerate_Click" Background="#FF1263B4" Foreground="#FFD8A316"/>
+        <Button x:Name="btnSave" Content="Save" HorizontalAlignment="Left" Margin="220,356,0,0" VerticalAlignment="Top" Width="140" Click="btnSave_Click" Background="#FF1263B4" Foreground="#FFD8A316" />
+        <Button x:Name="btnTest" Content="Add Line" HorizontalAlignment="Left" Margin="222,449,0,0" VerticalAlignment="Top" Click="btnTest_Click" Width="139" Background="#FF1263B4" Foreground="#FFD8A316" />
         <StackPanel Name="Display" Orientation="Horizontal" Margin="20"/>
-
+        <TextBlock Margin="52,15,63,0" TextWrapping="Wrap" Text="Number Generator Powerball" Height="77" Width="285" FontSize="25" TextAlignment="Center" VerticalAlignment="Top" HorizontalAlignment="Center"/>
     </Grid>
 </Page>

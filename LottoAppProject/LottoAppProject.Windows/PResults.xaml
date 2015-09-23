@@ -42,6 +42,6 @@
         <StackPanel x:Name="testing" Orientation="Horizontal" HorizontalAlignment="Left" Height="70" Margin="403,243,0,0" VerticalAlignment="Top" Width="396"/>
         <StackPanel x:Name="bonus" Orientation="Horizontal" Height="70" Margin="846,243,401,0" VerticalAlignment="Top"/>
         <AppBarButton HorizontalAlignment="Left" Icon="Back" Label="Back" Margin="4,4,0,0" VerticalAlignment="Top" Click="AppBarButton_Click_4"/>
-        <TextBlock HorizontalAlignment="Left" Margin="322,74,0,0" TextWrapping="Wrap" Text="Lotto Plus Results" VerticalAlignment="Top" Height="30" Width="304" FontSize="30"/>
+        <TextBlock HorizontalAlignment="Left" Margin="322,74,0,0" TextWrapping="Wrap" Text="Powerball Results" VerticalAlignment="Top" Height="30" Width="304" FontSize="30"/>
     </Grid>
 </Page>

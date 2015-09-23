@@ -6,20 +6,15 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
-    <Page.Background>
-        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
-            <GradientStop Color="Black" Offset="0"/>
-            <GradientStop Color="#FF8EDA7D" Offset="1"/>
-        </LinearGradientBrush>
-    </Page.Background>
 
-    <Grid>
-        <Button x:Name="btnResults" Content="View Results"   Height="70" Width="168" Background="#FF1263B4" Foreground="#FFD8A316" Margin="19,482,0,88" Click="btnResults_Click"/>
-        <Button x:Name="btnSettings" Content="Settings" Width="168" Height="70"  Background="#FF1263B4" Foreground="#FFD8A316" Margin="220,479,0,91" Click="btnSettings_Click"/>
-        <Button x:Name="btnGenerate" Content="Generate"  Height="70" Width="168" Background="#FF1263B4" Foreground="#FFD8A316" Margin="212,356,0,214" Click="btnGenerate_Click"/>
-        <Button x:Name="btnDetails" Content="Add Details" Width="168" Height="70"  Background="#FF1263B4" Foreground="#FFD8A316" Margin="16,356,0,214" Click="btnDetails_Click"/>
-        <Image Grid.Row="0" Source="Image/01XSAN-IM1001-sands-resort-mauritius-1475.jpg" HorizontalAlignment="Left" VerticalAlignment="Top"/>
-        <TextBlock Margin="0,0,59,567" TextWrapping="Wrap" Text="LottoApp" Width="341" HorizontalAlignment="Center" FontSize="50" Foreground="#FFF9F8F8" FlowDirection="LeftToRight"/>
+
+    <Grid Background="#FF38B2B8">
+        <Button x:Name="btnResults" Content="View Results"   Height="70" Width="168" Background="#FF1263B4" Foreground="#FFD8A316" Margin="19,366,0,204" Click="btnResults_Click"/>
+        <Button x:Name="btnSettings" Content="Settings" Width="168" Height="70"  Background="#FF1263B4" Foreground="#FFD8A316" Margin="220,363,0,207" Click="btnSettings_Click"/>
+        <Button x:Name="btnGenerate" Content="Generate"  Height="70" Width="168" Background="#FF1263B4" Foreground="#FFD8A316" Margin="212,240,0,330" Click="btnGenerate_Click"/>
+        <Button x:Name="btnDetails" Content="Add Details" Width="168" Height="70"  Background="#FF1263B4" Foreground="#FFD8A316" Margin="16,240,0,330" Click="btnDetails_Click"/>
+        <!--<Image Grid.Row="0" Source="Image/01XSAN-IM1001-sands-resort-mauritius-1475.jpg" HorizontalAlignment="Left" VerticalAlignment="Top"/>-->
+        <TextBlock Margin="40,56,19,511" TextWrapping="Wrap" Text="LottoApp" Width="341" HorizontalAlignment="Center" FontSize="50" Foreground="#FFF9F8F8" FlowDirection="LeftToRight"/>
 
     </Grid>
 </Page>
