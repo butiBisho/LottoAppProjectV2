@@ -24,17 +24,19 @@
 
     <Grid Background="#FF38B2B8">
 
-        <TextBlock HorizontalAlignment="Left" Margin="584,84,0,0" TextWrapping="Wrap" Text="Powerball" VerticalAlignment="Top" Height="37" Width="148" FontSize="30" Foreground="#FFFBF6F6"/>
-        <TextBox x:Name="txtP1" HorizontalAlignment="Left" Margin="687,200,615,0" TextWrapping="Wrap" VerticalAlignment="Top" Foreground="#FF131212" BorderBrush="#FF097EF3" Height="40"/>
-        <TextBox x:Name="txtP2" HorizontalAlignment="Left" Margin="687,261,615,0" TextWrapping="Wrap" VerticalAlignment="Top" Foreground="#FF131212" BorderBrush="#FF097EF3" Height="40"/>
-        <TextBox x:Name="txtP3" HorizontalAlignment="Left" Margin="687,329,615,0" TextWrapping="Wrap" VerticalAlignment="Top" Foreground="#FF131212" BorderBrush="#FF097EF3" Height="40"/>
-        <TextBox x:Name="txtP4" HorizontalAlignment="Left" Margin="687,392,615,0" TextWrapping="Wrap" VerticalAlignment="Top" Foreground="#FF131212" BorderBrush="#FF097EF3" Height="40"/>
-        <TextBox x:Name="txtP5" HorizontalAlignment="Left" Margin="687,459,615,0" TextWrapping="Wrap" VerticalAlignment="Top" Foreground="#FF131212" BorderBrush="#FF097EF3" Height="40"/>
-        <TextBlock HorizontalAlignment="Left" Margin="564,462,713,0" TextWrapping="Wrap" Text="Number 5" VerticalAlignment="Top" Foreground="#FFFBF6F6" FontSize="20"/>
-        <TextBlock HorizontalAlignment="Left" Margin="564,398,713,0" TextWrapping="Wrap" Text="Number 4" VerticalAlignment="Top" Foreground="#FFFBF6F6" FontSize="20" />
-        <TextBlock HorizontalAlignment="Left" Margin="564,334,713,0" TextWrapping="Wrap" Text="Number 3" VerticalAlignment="Top" Foreground="#FFFBF6F6" FontSize="20" />
-        <TextBlock HorizontalAlignment="Left" Margin="564,264,713,0" TextWrapping="Wrap" Text="Number 2" VerticalAlignment="Top" Foreground="#FFFBF6F6" FontSize="20" />
-        <TextBlock HorizontalAlignment="Left" Margin="564,203,713,0" TextWrapping="Wrap" Text="Number 1" VerticalAlignment="Top" Foreground="#FFFBF6F6" FontSize="20" />
+        <TextBlock HorizontalAlignment="Left" Margin="582,130,0,0" TextWrapping="Wrap" Text="Powerball" VerticalAlignment="Top" Height="49" Width="246" FontSize="50" Foreground="#FFFBF6F6"/>
+        <TextBox x:Name="txtP1" HorizontalAlignment="Left" Margin="687,280,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Foreground="#FF131212" BorderBrush="#FF097EF3" Height="40"/>
+        <TextBox x:Name="txtP2" HorizontalAlignment="Left" Margin="687,341,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Foreground="#FF131212" BorderBrush="#FF097EF3" Height="40"/>
+        <TextBox x:Name="txtP3" HorizontalAlignment="Left" Margin="687,409,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Foreground="#FF131212" BorderBrush="#FF097EF3" Height="40"/>
+        <TextBox x:Name="txtP4" HorizontalAlignment="Left" Margin="687,472,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Foreground="#FF131212" BorderBrush="#FF097EF3" Height="40"/>
+        <TextBox x:Name="txtP5" HorizontalAlignment="Left" Margin="687,539,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Foreground="#FF131212" BorderBrush="#FF097EF3" Height="40"/>
+        <TextBlock HorizontalAlignment="Left" Margin="564,542,0,0" TextWrapping="Wrap" Text="Number 5" VerticalAlignment="Top" Foreground="#FFFBF6F6" FontSize="20"/>
+        <TextBlock HorizontalAlignment="Left" Margin="564,478,0,0" TextWrapping="Wrap" Text="Number 4" VerticalAlignment="Top" Foreground="#FFFBF6F6" FontSize="20" />
+        <TextBlock HorizontalAlignment="Left" Margin="564,414,0,0" TextWrapping="Wrap" Text="Number 3" VerticalAlignment="Top" Foreground="#FFFBF6F6" FontSize="20" />
+        <TextBlock HorizontalAlignment="Left" Margin="564,344,0,0" TextWrapping="Wrap" Text="Number 2" VerticalAlignment="Top" Foreground="#FFFBF6F6" FontSize="20" />
+        <TextBlock HorizontalAlignment="Left" Margin="564,283,0,0" TextWrapping="Wrap" Text="Number 1" VerticalAlignment="Top" Foreground="#FFFBF6F6" FontSize="20" />
         <AppBarButton HorizontalAlignment="Left" Icon="Back" Label="Back" Margin="2,3,0,0" VerticalAlignment="Top" Click="AppBarButton_Click_1"/>
+        <Image HorizontalAlignment="Left" Height="74" Margin="134,81,0,0" VerticalAlignment="Top" Width="494" Source="Image/salotteryresult_logo.png" />
+        <TextBlock HorizontalAlignment="Left" Margin="470,215,0,0" TextWrapping="Wrap" Text="Save the numbers you played with" VerticalAlignment="Top" FontSize="26"/>
     </Grid>
 </Page>

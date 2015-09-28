@@ -34,6 +34,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="$(MSBuildThisFileDirectory)Image\01XSAN-IM1001-sands-resort-mauritius-1475.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Image\Business-Logo-Design-Company.png" />
     <Content Include="$(MSBuildThisFileDirectory)Image\lottery-balls-sphere-46068011.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Image\photo.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Image\salotteryresult_logo.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Image\unnamed.png" />
   </ItemGroup>
 </Project>

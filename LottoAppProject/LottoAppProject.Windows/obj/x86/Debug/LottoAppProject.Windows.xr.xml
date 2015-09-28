@@ -56,9 +56,8 @@
       <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="Width" />
       <RootProperty Name="TextAlignment" />
-      <RootProperty Name="FlowDirection" />
+      <RootProperty Name="Inlines" />
       <RootProperty Name="Name" />
-      <RootProperty Name="FontWeight" />
       <RootProperty Name="FontStyle" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.TextBox">
@@ -73,6 +72,14 @@
       <RootProperty Name="Name" />
       <RootProperty Name="Width" />
       <RootProperty Name="FontSize" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.Image">
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="Height" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="Source" />
     </RootType>
     <RootType FullName="LottoAppProject.AddLine" />
     <RootType FullName="LottoAppProject.AddLinePowerball" />
@@ -134,6 +141,10 @@
       <RootProperty Name="Height" />
     </RootType>
     <RootType FullName="LottoAppProject.MainPage" />
+    <RootType FullName="Windows.UI.Xaml.Documents.Run">
+      <RootProperty Name="Text" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Documents.LineBreak" />
     <RootType FullName="LottoAppProject.NumberGenerator" />
     <RootType FullName="LottoAppProject.NumberGeneratorPowerball" />
     <RootType FullName="LottoAppProject.PResults" />
@@ -146,6 +157,8 @@
       <RootProperty Name="Width" />
       <RootProperty Name="Height" />
       <RootProperty Name="IsThreeState" />
+      <RootProperty Name="Background" />
+      <RootProperty Name="Foreground" />
       <RootEvent Name="Checked" />
       <RootEvent Name="Unchecked" />
       <RootEvent Name="Indeterminate" />

@@ -24,24 +24,25 @@
 
     <Grid Background="#FF38B2B8">
 
-        <ComboBox x:Name="cmbType" HorizontalAlignment="Left" Margin="320,99,0,0" VerticalAlignment="Top" Width="205" BorderBrush="#CC27ACD3">
+        <ComboBox x:Name="cmbType" HorizontalAlignment="Left" Margin="320,133,0,0" VerticalAlignment="Top" Width="205" BorderBrush="#CC27ACD3">
             <ComboBoxItem Content="PowerBall"/>
         </ComboBox>
-        <TextBlock HorizontalAlignment="Left" Margin="482,201,0,0" TextWrapping="Wrap" Text="Number 1" VerticalAlignment="Top" Foreground="#FFFFF9F9" FontSize="20" TextAlignment="Center"/>
-        <TextBlock HorizontalAlignment="Left" Margin="482,269,0,0" TextWrapping="Wrap" Text="Number 2" VerticalAlignment="Top" Foreground="#FFFFF9F9" FontSize="20" TextAlignment="Center"/>
-        <TextBlock HorizontalAlignment="Left" Margin="482,333,0,0" TextWrapping="Wrap" Text="Number 3" VerticalAlignment="Top" Foreground="#FFFFF9F9" FontSize="20" TextAlignment="Center"/>
-        <TextBlock HorizontalAlignment="Left" Margin="482,409,0,0" TextWrapping="Wrap" Text="Number 4" VerticalAlignment="Top" Foreground="#FFFFF9F9" FontSize="20" TextAlignment="Center"/>
-        <TextBlock HorizontalAlignment="Left" Margin="482,484,0,0" TextWrapping="Wrap" Text="Number 5" VerticalAlignment="Top" Foreground="#FFFFF9F9" FontSize="20" TextAlignment="Center"/>
-        <TextBox x:Name="txtOne" HorizontalAlignment="Left" Margin="625,196,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="111" Foreground="#FF131212" BorderBrush="#FF097EF3"/>
-        <TextBox x:Name="txtTwo" HorizontalAlignment="Left" Margin="625,263,0,0" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="0.588,2.375" Width="111" Foreground="#FF131212" BorderBrush="#FF097EF3"/>
-        <TextBox x:Name="txtThree" HorizontalAlignment="Left" Margin="625,330,0,0" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="0.588,2.375" Width="111" Foreground="#FF131212" BorderBrush="#FF097EF3"/>
-        <TextBox x:Name="txtFour" HorizontalAlignment="Left" Margin="625,402,0,0" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="0.588,2.375" Width="111" Foreground="#FF131212" BorderBrush="#FF097EF3"/>
-        <TextBox x:Name="txtFive" HorizontalAlignment="Left" Margin="625,477,0,0" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="0.588,2.375" Width="111" Foreground="#FF131212" BorderBrush="#FF097EF3"/>
-        <TextBlock HorizontalAlignment="Left" Margin="480,560,0,0" TextWrapping="Wrap" Text="Bonus" VerticalAlignment="Top" Foreground="#FFFFF9F9" FontSize="20" FontStyle="Italic" TextAlignment="Center"/>
-        <TextBox x:Name="txtBonus" HorizontalAlignment="Left" Margin="625,554,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="111" Foreground="#FF131212" BorderBrush="#FF097EF3"/>
+        <TextBlock HorizontalAlignment="Left" Margin="544,201,0,0" TextWrapping="Wrap" Text="Number 1" VerticalAlignment="Top" Foreground="#FFFFF9F9" FontSize="20" TextAlignment="Center"/>
+        <TextBlock HorizontalAlignment="Left" Margin="544,269,0,0" TextWrapping="Wrap" Text="Number 2" VerticalAlignment="Top" Foreground="#FFFFF9F9" FontSize="20" TextAlignment="Center"/>
+        <TextBlock HorizontalAlignment="Left" Margin="544,333,0,0" TextWrapping="Wrap" Text="Number 3" VerticalAlignment="Top" Foreground="#FFFFF9F9" FontSize="20" TextAlignment="Center"/>
+        <TextBlock HorizontalAlignment="Left" Margin="544,409,0,0" TextWrapping="Wrap" Text="Number 4" VerticalAlignment="Top" Foreground="#FFFFF9F9" FontSize="20" TextAlignment="Center"/>
+        <TextBlock HorizontalAlignment="Left" Margin="544,484,0,0" TextWrapping="Wrap" Text="Number 5" VerticalAlignment="Top" Foreground="#FFFFF9F9" FontSize="20" TextAlignment="Center"/>
+        <TextBox x:Name="txtOne" HorizontalAlignment="Left" Margin="687,196,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="111" Foreground="#FF131212" BorderBrush="#FF097EF3"/>
+        <TextBox x:Name="txtTwo" HorizontalAlignment="Left" Margin="687,263,0,0" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="0.588,2.375" Width="111" Foreground="#FF131212" BorderBrush="#FF097EF3"/>
+        <TextBox x:Name="txtThree" HorizontalAlignment="Left" Margin="687,330,0,0" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="0.588,2.375" Width="111" Foreground="#FF131212" BorderBrush="#FF097EF3"/>
+        <TextBox x:Name="txtFour" HorizontalAlignment="Left" Margin="687,402,0,0" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="0.588,2.375" Width="111" Foreground="#FF131212" BorderBrush="#FF097EF3"/>
+        <TextBox x:Name="txtFive" HorizontalAlignment="Left" Margin="687,477,0,0" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="0.588,2.375" Width="111" Foreground="#FF131212" BorderBrush="#FF097EF3"/>
+        <TextBlock HorizontalAlignment="Left" Margin="542,560,0,0" TextWrapping="Wrap" Text="Bonus" VerticalAlignment="Top" Foreground="#FFFFF9F9" FontSize="20" FontStyle="Italic" TextAlignment="Center"/>
+        <TextBox x:Name="txtBonus" HorizontalAlignment="Left" Margin="687,554,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="111" Foreground="#FF131212" BorderBrush="#FF097EF3"/>
         <AppBarButton HorizontalAlignment="Left" Icon="Back" Label="Back" Margin="0,-1,0,0" VerticalAlignment="Top" Click="AppBarButton_Click"/>
-        <DatePicker x:Name="dpDate" HorizontalAlignment="Left" Margin="722,100,0,0" VerticalAlignment="Top" MonthFormat="{}{month.integer}"/>
+        <DatePicker x:Name="dpDate" HorizontalAlignment="Left" Margin="722,134,0,0" VerticalAlignment="Top" MonthFormat="{}{month.integer}"/>
         <Button Content="Button" HorizontalAlignment="Left" Margin="969,435,0,0" VerticalAlignment="Top" Click="Button_Click"/>
-        <TextBlock HorizontalAlignment="Center" Margin="532,30,562,0" TextWrapping="Wrap" Text="Lotto &amp; LottoPlus" VerticalAlignment="Top" Height="25" Width="272" FontSize="25" Foreground="#FFF3F0F0"/>
+        <TextBlock HorizontalAlignment="Center" Margin="558,59,400,0" TextWrapping="Wrap" Text="Lotto &amp; LottoPlus" VerticalAlignment="Top" Height="51" Width="408" FontSize="50" Foreground="#FFF3F0F0"/>
+        <Image HorizontalAlignment="Left" Height="74" Margin="138,30,0,0" VerticalAlignment="Top" Width="494" Source="Image/salotteryresult_logo.png" />
     </Grid>
 </Page>

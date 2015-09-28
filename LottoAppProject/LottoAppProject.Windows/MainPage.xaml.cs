@@ -103,5 +103,7 @@ namespace LottoAppProject
             this.Frame.Navigate(typeof(NumberGeneratorPowerball));
         }
 
+
+
     }
 }

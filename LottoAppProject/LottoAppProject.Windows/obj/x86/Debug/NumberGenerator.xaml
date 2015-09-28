@@ -30,10 +30,17 @@
     <Grid Background="#FF38B2B8">
         <TextBlock Height="40" HorizontalAlignment="Left" Margin="2,117,0,0" x:Name ="errormessage" VerticalAlignment="Top" Width="715" Foreground="#FFF7F1F1" FontSize="30"/>
 
-        <Button x:ConnectionId='6' x:Name="btnGenerate" Content="Generate" HorizontalAlignment="Left" Margin="399,481,0,0" VerticalAlignment="Top" Width="563" Background="#FF1263B4" Foreground="#FFD8A316" FontStyle="Italic" Height="50"                           FontFamily="Global User Interface"/>
-        <StackPanel Name="Display" HorizontalAlignment="Center" Height="100" Orientation="Horizontal" Margin="508,207,302,461" Width="556"/>
+        <Button x:ConnectionId='6' x:Name="btnGenerate" Content="Generate" HorizontalAlignment="Left" Margin="399,459,0,0" VerticalAlignment="Top" Width="563" Background="#FF1263B4" Foreground="#FFD8A316" FontStyle="Italic" Height="50"                           FontFamily="Global User Interface"/>
+        <StackPanel Name="Display" HorizontalAlignment="Center" Height="100" Orientation="Horizontal" Margin="468,285,342,383" Width="556"/>
         <AppBarButton x:ConnectionId='7' HorizontalAlignment="Left" Icon="Back" Label="Back" Margin="2,0,0,0" VerticalAlignment="Top"                           />
-        <TextBlock Margin="402,74,407,0" TextWrapping="Wrap" Text="Number Generator Lotto And LottoPlus" Height="75" Width="557" FontSize="30" TextAlignment="Center" VerticalAlignment="Top" HorizontalAlignment="Center"/>
+        <TextBlock Margin="450,74,397,0" TextWrapping="Wrap" Height="128" Width="519" FontSize="50" TextAlignment="Center" VerticalAlignment="Top" HorizontalAlignment="Center">
+        	<Run Text="Number Generator "/>
+        	<LineBreak/>
+        	<Run Text="Lotto And Lotto"/>
+        	<Run Text=" "/>
+        	<Run Text="Plus"/>
+        </TextBlock>
+        <Image HorizontalAlignment="Left" Height="166" Margin="240,37,0,0" VerticalAlignment="Top" Width="170" Source="Image/photo.jpg" />
     </Grid>
 </Page>
 

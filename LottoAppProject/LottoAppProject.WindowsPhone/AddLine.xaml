@@ -17,19 +17,19 @@
     </Page.BottomAppBar>
 
     <Grid Background="#FF38B2B8">
-        <TextBlock HorizontalAlignment="Left" Margin="120,44,0,0" TextWrapping="Wrap" Text="Lotto &amp; LottoPlus" VerticalAlignment="Top" Height="25" Width="215" FontSize="19" Foreground="#FFF3F0F0"/>
-        <TextBox x:Name="txtOne" HorizontalAlignment="Left" Margin="209,109,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Foreground="#FF131212" BorderBrush="#FF097EF3" Height="20" Width="49"/>
-        <TextBox x:Name="txtTwo" HorizontalAlignment="Left" Margin="209,170,0,0" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="0.467,1.92" Foreground="#FF131212" BorderBrush="#FF097EF3" Height="20" Width="49"/>
-        <TextBox x:Name="txtThree" HorizontalAlignment="Left" Margin="209,238,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Foreground="#FF131212" BorderBrush="#FF097EF3" Height="20" Width="49"/>
-        <TextBox x:Name="txtFour" HorizontalAlignment="Left" Margin="209,301,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Foreground="#FF131212" BorderBrush="#FF097EF3" Height="20" Width="49"/>
-        <TextBox x:Name="txtFive" HorizontalAlignment="Left" Margin="209,368,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Foreground="#FF131212" BorderBrush="#FF097EF3" Height="20" Width="49"/>
-        <TextBox x:Name="txtSix" HorizontalAlignment="Left" Margin="211,431,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Foreground="#FF131212" BorderBrush="#FF097EF3" Height="20" Width="49"/>
-        <TextBlock HorizontalAlignment="Left" Margin="123,186,0,0" TextWrapping="Wrap" Text="Number 2" VerticalAlignment="Top" Foreground="#FFF9F7F7" FontSize="13"/>
-        <TextBlock HorizontalAlignment="Left" Margin="123,256,0,0" TextWrapping="Wrap" Text="Number 3" VerticalAlignment="Top" Foreground="#FFF5F2F2" FontSize="13"/>
-        <TextBlock HorizontalAlignment="Left" Margin="123,320,0,0" TextWrapping="Wrap" Text="Number 4" VerticalAlignment="Top" Foreground="#FFFDF8F8" FontSize="13"/>
-        <TextBlock HorizontalAlignment="Left" Margin="123,384,0,0" TextWrapping="Wrap" Text="Number 5" VerticalAlignment="Top" Foreground="#FFFBF9F9" FontSize="13"/>
-        <TextBlock HorizontalAlignment="Left" Margin="123,451,0,0" TextWrapping="Wrap" Text="Number 6" VerticalAlignment="Top" Foreground="#FFF9F6F6" FontSize="13"/>
-        <TextBlock HorizontalAlignment="Left" Margin="123,125,0,0" TextWrapping="Wrap" Text="Number 1" VerticalAlignment="Top" Foreground="#FFFBFAFA" FontSize="13" Height="19"/>
-
+        <TextBlock HorizontalAlignment="Left" Margin="120,90,0,0" TextWrapping="Wrap" Text="Lotto &amp; LottoPlus" VerticalAlignment="Top" Height="25" Width="215" FontSize="19" Foreground="#FFF3F0F0"/>
+        <TextBox x:Name="txtOne" HorizontalAlignment="Left" Margin="225,161,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Foreground="#FF131212" BorderBrush="#FF097EF3" Height="20" Width="49"/>
+        <TextBox x:Name="txtTwo" HorizontalAlignment="Left" Margin="225,222,0,0" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="0.467,1.92" Foreground="#FF131212" BorderBrush="#FF097EF3" Height="20" Width="49"/>
+        <TextBox x:Name="txtThree" HorizontalAlignment="Left" Margin="225,290,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Foreground="#FF131212" BorderBrush="#FF097EF3" Height="20" Width="49"/>
+        <TextBox x:Name="txtFour" HorizontalAlignment="Left" Margin="225,353,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Foreground="#FF131212" BorderBrush="#FF097EF3" Height="20" Width="49"/>
+        <TextBox x:Name="txtFive" HorizontalAlignment="Left" Margin="225,420,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Foreground="#FF131212" BorderBrush="#FF097EF3" Height="20" Width="49"/>
+        <TextBox x:Name="txtSix" HorizontalAlignment="Left" Margin="227,483,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Foreground="#FF131212" BorderBrush="#FF097EF3" Height="20" Width="49"/>
+        <TextBlock HorizontalAlignment="Left" Margin="139,238,0,0" TextWrapping="Wrap" Text="Number 2" VerticalAlignment="Top" Foreground="#FFF9F7F7" FontSize="13"/>
+        <TextBlock HorizontalAlignment="Left" Margin="139,308,0,0" TextWrapping="Wrap" Text="Number 3" VerticalAlignment="Top" Foreground="#FFF5F2F2" FontSize="13"/>
+        <TextBlock HorizontalAlignment="Left" Margin="139,372,0,0" TextWrapping="Wrap" Text="Number 4" VerticalAlignment="Top" Foreground="#FFFDF8F8" FontSize="13"/>
+        <TextBlock HorizontalAlignment="Left" Margin="139,436,0,0" TextWrapping="Wrap" Text="Number 5" VerticalAlignment="Top" Foreground="#FFFBF9F9" FontSize="13"/>
+        <TextBlock HorizontalAlignment="Left" Margin="139,503,0,0" TextWrapping="Wrap" Text="Number 6" VerticalAlignment="Top" Foreground="#FFF9F6F6" FontSize="13"/>
+        <TextBlock HorizontalAlignment="Left" Margin="139,177,0,0" TextWrapping="Wrap" Text="Number 1" VerticalAlignment="Top" Foreground="#FFFBFAFA" FontSize="13" Height="19"/>
+        <Image HorizontalAlignment="Left" Height="74" VerticalAlignment="Top" Width="346" Source="Image/salotteryresult_logo.png" Margin="10,10,0,0"/>
     </Grid>
 </Page>

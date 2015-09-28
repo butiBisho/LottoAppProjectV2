@@ -23,15 +23,14 @@
     </Page.BottomAppBar>
 
     <Grid Background="#FF38B2B8">
-        <ComboBox x:Name="cmbGameType" VerticalAlignment="Top" BorderBrush="#CC27ACD3" Margin="841,74,277,0" Height="42">
-                <ComboBoxItem Content="Lotto"/>
-                <ComboBoxItem Content="LottoPlus"/>
-                <ComboBoxItem Content="PowerBall"/>
-            </ComboBox>
+        <ComboBox x:Name="cmbGameType" VerticalAlignment="Top" BorderBrush="#CC27ACD3" Margin="961,128,157,0" Height="42">
+            <ComboBoxItem Content="Lotto"/>
+            <ComboBoxItem Content="LottoPlus"/>
+            <ComboBoxItem Content="PowerBall"/>
+        </ComboBox>
 
         <TextBlock HorizontalAlignment="Left" Margin="255,18,0,0" TextWrapping="Wrap" Text="{Binding jus}" VerticalAlignment="Top" Height="15"/>
         <TextBlock HorizontalAlignment="Left" Margin="477,345,0,0" TextWrapping="Wrap" Text="Compare with the Saved Numbers" VerticalAlignment="Top" Foreground="#FFF7F4F4" FontSize="30" TextAlignment="Center" Height="45"/>
-        <TextBlock HorizontalAlignment="Left" Margin="569,193,0,0" TextWrapping="Wrap" Text="Winning Results" VerticalAlignment="Top" Foreground="#FFF7F4F4" FontSize="30" TextAlignment="Center"/>
 
         <DatePicker x:Name="dpDate" HorizontalAlignment="Left" Height="41" Margin="683,616,0,0" VerticalAlignment="Top" Width="319" DayVisible="True"/>
         <Button x:ConnectionId='3' x:Name="btnSearch" Content="Browse Previous results" HorizontalAlignment="Left" Margin="396,613,0,0" VerticalAlignment="Top" Width="243" Background="#FF1263B4" Foreground="#FFD8A316" Height="50"                         FontFamily="Global User Interface"/>
@@ -41,7 +40,8 @@
         <StackPanel x:Name="testing" Orientation="Horizontal" HorizontalAlignment="Left" Height="70" Margin="403,243,0,0" VerticalAlignment="Top" Width="396"/>
         <StackPanel x:Name="bonus" Orientation="Horizontal" Height="70" Margin="846,243,401,0" VerticalAlignment="Top"/>
         <AppBarButton x:ConnectionId='5' HorizontalAlignment="Left" Icon="Back" Label="Back" Margin="4,4,0,0" VerticalAlignment="Top"                             />
-        <TextBlock HorizontalAlignment="Left" Margin="322,74,0,0" TextWrapping="Wrap" Text="Lotto Plus Results" VerticalAlignment="Top" Height="30" Width="304" FontSize="30"/>
+        <TextBlock HorizontalAlignment="Left" Margin="440,128,0,0" TextWrapping="Wrap" Text="Lotto Plus Results" VerticalAlignment="Top" Height="70" Width="403" FontSize="50"/>
+        <Image HorizontalAlignment="Left" Height="74" Margin="134,55,0,0" VerticalAlignment="Top" Width="494" Source="Image/salotteryresult_logo.png" />
     </Grid>
 </Page>
 

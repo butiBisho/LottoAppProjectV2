@@ -20,13 +20,13 @@
     <AppXManifest Include="C:\Users\Buti Samuel Bisho\Documents\Visual Studio 2013\Projects\LottoAppProject\LottoAppProject\LottoAppProject.Windows\bin\x86\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-09-22T09:20:27.116</Modified>
+      <Modified>2015-09-25T10:02:43.611</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Buti Samuel Bisho\Documents\Visual Studio 2013\Projects\LottoAppProject\LottoAppProject\LottoAppProject.Windows\bin\x86\Debug\LottoAppProject.Windows.exe">
       <PackagePath>LottoAppProject.Windows.exe</PackagePath>
-      <Modified>2015-09-23T08:12:11.999</Modified>
+      <Modified>2015-09-25T10:02:34.727</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\SQLite.WinRT81\3.8.11.1\Redist\Debug\x86\sqlite3.dll">
       <PackagePath>sqlite3.dll</PackagePath>
@@ -57,6 +57,18 @@
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2014-03-14T08:55:28.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Buti Samuel Bisho\Documents\Visual Studio 2013\Projects\LottoAppProject\LottoAppProject\LottoAppProject.Shared\Image\Business-Logo-Design-Company.png">
+      <PackagePath>Image\Business-Logo-Design-Company.png</PackagePath>
+      <Modified>2015-09-25T07:45:35.695</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Buti Samuel Bisho\Documents\Visual Studio 2013\Projects\LottoAppProject\LottoAppProject\LottoAppProject.Shared\Image\salotteryresult_logo.png">
+      <PackagePath>Image\salotteryresult_logo.png</PackagePath>
+      <Modified>2015-09-25T07:52:25.159</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Buti Samuel Bisho\Documents\Visual Studio 2013\Projects\LottoAppProject\LottoAppProject\LottoAppProject.Shared\Image\unnamed.png">
+      <PackagePath>Image\unnamed.png</PackagePath>
+      <Modified>2015-09-25T06:28:31.551</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Buti Samuel Bisho\Documents\Visual Studio 2013\Projects\LottoAppProject\LottoAppProject\LottoAppProject.Shared\Image\01XSAN-IM1001-sands-resort-mauritius-1475.jpg">
       <PackagePath>Image\01XSAN-IM1001-sands-resort-mauritius-1475.jpg</PackagePath>
       <Modified>2015-09-21T07:30:14.000</Modified>
@@ -65,37 +77,41 @@
       <PackagePath>Image\lottery-balls-sphere-46068011.jpg</PackagePath>
       <Modified>2015-08-31T10:09:46.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Buti Samuel Bisho\Documents\Visual Studio 2013\Projects\LottoAppProject\LottoAppProject\LottoAppProject.Shared\Image\photo.jpg">
+      <PackagePath>Image\photo.jpg</PackagePath>
+      <Modified>2015-09-25T04:29:21.907</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Buti Samuel Bisho\Documents\Visual Studio 2013\Projects\LottoAppProject\LottoAppProject\LottoAppProject.Windows\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
       <Modified>2015-09-14T09:59:17.614</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Buti Samuel Bisho\Documents\Visual Studio 2013\Projects\LottoAppProject\LottoAppProject\LottoAppProject.Windows\bin\x86\Debug\AddLine.xbf">
       <PackagePath>AddLine.xbf</PackagePath>
-      <Modified>2015-09-22T17:12:55.565</Modified>
+      <Modified>2015-09-25T10:02:33.463</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Buti Samuel Bisho\Documents\Visual Studio 2013\Projects\LottoAppProject\LottoAppProject\LottoAppProject.Windows\bin\x86\Debug\AddLinePowerball.xbf">
       <PackagePath>AddLinePowerball.xbf</PackagePath>
-      <Modified>2015-09-22T17:15:10.394</Modified>
+      <Modified>2015-09-25T10:02:33.473</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Buti Samuel Bisho\Documents\Visual Studio 2013\Projects\LottoAppProject\LottoAppProject\LottoAppProject.Windows\bin\x86\Debug\LPResults.xbf">
       <PackagePath>LPResults.xbf</PackagePath>
-      <Modified>2015-09-22T18:48:14.333</Modified>
+      <Modified>2015-09-25T10:02:33.500</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Buti Samuel Bisho\Documents\Visual Studio 2013\Projects\LottoAppProject\LottoAppProject\LottoAppProject.Windows\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2015-09-22T21:43:46.013</Modified>
+      <Modified>2015-09-25T10:02:33.525</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Buti Samuel Bisho\Documents\Visual Studio 2013\Projects\LottoAppProject\LottoAppProject\LottoAppProject.Windows\bin\x86\Debug\NumberGenerator.xbf">
       <PackagePath>NumberGenerator.xbf</PackagePath>
-      <Modified>2015-09-22T19:30:15.859</Modified>
+      <Modified>2015-09-25T06:03:11.055</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Buti Samuel Bisho\Documents\Visual Studio 2013\Projects\LottoAppProject\LottoAppProject\LottoAppProject.Windows\bin\x86\Debug\NumberGeneratorPowerball.xbf">
       <PackagePath>NumberGeneratorPowerball.xbf</PackagePath>
-      <Modified>2015-09-22T19:30:15.869</Modified>
+      <Modified>2015-09-25T06:03:58.964</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Buti Samuel Bisho\Documents\Visual Studio 2013\Projects\LottoAppProject\LottoAppProject\LottoAppProject.Windows\bin\x86\Debug\PResults.xbf">
       <PackagePath>PResults.xbf</PackagePath>
-      <Modified>2015-09-23T05:56:53.304</Modified>
+      <Modified>2015-09-25T10:02:33.539</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Buti Samuel Bisho\Documents\Visual Studio 2013\Projects\LottoAppProject\LottoAppProject\LottoAppProject.Windows\bin\x86\Debug\Register.xbf">
       <PackagePath>Register.xbf</PackagePath>
@@ -103,27 +119,27 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Buti Samuel Bisho\Documents\Visual Studio 2013\Projects\LottoAppProject\LottoAppProject\LottoAppProject.Windows\bin\x86\Debug\ResultNotification.xbf">
       <PackagePath>ResultNotification.xbf</PackagePath>
-      <Modified>2015-09-23T08:12:10.379</Modified>
+      <Modified>2015-09-25T06:07:14.060</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Buti Samuel Bisho\Documents\Visual Studio 2013\Projects\LottoAppProject\LottoAppProject\LottoAppProject.Windows\bin\x86\Debug\Results.xbf">
       <PackagePath>Results.xbf</PackagePath>
-      <Modified>2015-09-22T18:48:14.339</Modified>
+      <Modified>2015-09-25T10:02:33.553</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Buti Samuel Bisho\Documents\Visual Studio 2013\Projects\LottoAppProject\LottoAppProject\LottoAppProject.Windows\bin\x86\Debug\SaveResults.xbf">
       <PackagePath>SaveResults.xbf</PackagePath>
-      <Modified>2015-09-22T19:58:33.717</Modified>
+      <Modified>2015-09-25T10:02:33.579</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Buti Samuel Bisho\Documents\Visual Studio 2013\Projects\LottoAppProject\LottoAppProject\LottoAppProject.Windows\bin\x86\Debug\SaveResultsPowerball.xbf">
       <PackagePath>SaveResultsPowerball.xbf</PackagePath>
-      <Modified>2015-09-22T19:58:33.727</Modified>
+      <Modified>2015-09-25T10:02:33.590</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Buti Samuel Bisho\Documents\Visual Studio 2013\Projects\LottoAppProject\LottoAppProject\LottoAppProject.Windows\bin\x86\Debug\LottoAppProject.Windows.xr.xml">
       <PackagePath>LottoAppProject.Windows.xr.xml</PackagePath>
-      <Modified>2015-09-23T08:12:09.992</Modified>
+      <Modified>2015-09-25T05:59:31.181</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Buti Samuel Bisho\Documents\Visual Studio 2013\Projects\LottoAppProject\LottoAppProject\LottoAppProject.Windows\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2015-09-22T21:43:53.044</Modified>
+      <Modified>2015-09-25T10:02:40.730</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

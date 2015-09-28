@@ -13,11 +13,12 @@
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
         <Button x:ConnectionId='1' x:Name="btnResults" Content="View Results"   Height="126" Width="210" Background="#FF1263B4" Foreground="#FFD8A316" Margin="320,137,0,121" Grid.Row="1"                          FontSize="20"/>
-        <Button x:ConnectionId='2' x:Name="btnSettings" Content="Settings" Width="208" Height="126"  Background="#FF1263B4" Foreground="#FFD8A316" Margin="798,137,0,121" Grid.Row="1"                           FontSize="20" />
-        <Button x:ConnectionId='3' x:Name="btnGenerate" Content="Generate"  Height="118" Width="212" Background="#FF1263B4" Foreground="#FFD8A316" Margin="794,286,0,364"                           Grid.RowSpan="2" FontSize="20" />
+        <Button x:ConnectionId='2' x:Name="btnSettings" Content="Settings" Width="208" Height="126"  Background="#FF1263B4" Foreground="#FFD8A316" Margin="720,137,0,121" Grid.Row="1"                           FontSize="20" />
+        <Button x:ConnectionId='3' x:Name="btnGenerate" Content="Generate"  Height="118" Width="212" Background="#FF1263B4" Foreground="#FFD8A316" Margin="716,286,0,364"                           Grid.RowSpan="2" FontSize="20" />
         <Button x:ConnectionId='4' x:Name="btnDetails" Content="Add Details" Width="210" Height="118"  Background="#FF1263B4" Foreground="#FFD8A316" Margin="320,286,0,364"                          Grid.RowSpan="2" FontSize="20"/>
         <!--<Image Grid.Row="0" Source="Image/01XSAN-IM1001-sands-resort-mauritius-1475.jpg" HorizontalAlignment="Left" VerticalAlignment="Top" Stretch="UniformToFill"/>-->
-        <TextBlock Margin="0,118,781,201" TextWrapping="Wrap" Text="LottoApp" Width="341" HorizontalAlignment="Right" FontSize="50" Foreground="#FFF9F8F8" FlowDirection="LeftToRight"/>
+        <TextBlock Margin="0,160,257,159" TextWrapping="Wrap" Text="National Lottery Results" Width="527" HorizontalAlignment="Right" FontSize="50" Foreground="#FFF9F8F8" />
+        <Image HorizontalAlignment="Left" Height="74" Margin="134,81,0,0" VerticalAlignment="Top" Width="494" Source="Image/salotteryresult_logo.png" />
     </Grid>
 </Page>
 
