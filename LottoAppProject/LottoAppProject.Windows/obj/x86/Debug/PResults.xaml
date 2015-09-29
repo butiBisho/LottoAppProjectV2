@@ -41,7 +41,7 @@
         <StackPanel x:Name="testing" Orientation="Horizontal" HorizontalAlignment="Left" Height="70" Margin="435,243,0,0" VerticalAlignment="Top" Width="330"/>
         <StackPanel x:Name="bonus" Orientation="Horizontal" Height="70" Margin="804,243,443,0" VerticalAlignment="Top"/>
         <AppBarButton x:ConnectionId='5' HorizontalAlignment="Left" Icon="Back" Label="Back" Margin="4,4,0,0" VerticalAlignment="Top"                             />
-        <TextBlock HorizontalAlignment="Left" Margin="528,114,0,0" TextWrapping="Wrap" Text="Powerball Results" VerticalAlignment="Top" Height="66" Width="450" FontSize="50"/>
+        <TextBlock HorizontalAlignment="Left" Margin="612,44,0,0" TextWrapping="Wrap" Text="Powerball Results" VerticalAlignment="Top" Height="66" Width="450" FontSize="50"/>
         <Image HorizontalAlignment="Left" Height="74" Margin="166,40,0,0" VerticalAlignment="Top" Width="494" Source="Image/salotteryresult_logo.png" />
     </Grid>
 </Page>

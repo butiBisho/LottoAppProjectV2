@@ -30,7 +30,7 @@ namespace LottoAppProject
 
         private void btnDetails_Click(object sender, RoutedEventArgs e)
         {
-            this.Frame.Navigate(typeof(Register));
+            this.Frame.Navigate(typeof(SaveResults));
         }
 
         private async void btnResults_Click(object sender, RoutedEventArgs e)
@@ -79,8 +79,7 @@ namespace LottoAppProject
         }
 
         private async void btnGenerate_Click(object sender, RoutedEventArgs e)
-        {
-            
+        {            
             MessageDialog msgDialog = new MessageDialog("Game Type", "Please select game type");
             UICommand sixBtn = new UICommand("Lotto Or Lotto Plus");
             sixBtn.Invoked = sixBtnClick;

@@ -43,8 +43,8 @@
         <TextBox x:Name="txtBonus" HorizontalAlignment="Left" Margin="687,570,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="111" Foreground="#FF131212" BorderBrush="#FF097EF3"/>
         <AppBarButton HorizontalAlignment="Left" Icon="Back" Label="Back" Margin="0,-1,0,0" VerticalAlignment="Top" Click="AppBarButton_Click"/>
         <DatePicker x:Name="dpDate" HorizontalAlignment="Left" Margin="724,195,0,0" VerticalAlignment="Top" MonthFormat="{}{month.integer}"/>
-        <TextBlock HorizontalAlignment="Center" Margin="642,101,298,0" TextWrapping="Wrap" Text="Lotto &amp; LottoPlus" VerticalAlignment="Top" Height="51" Width="426" FontSize="50" Foreground="#FFF3F0F0"/>
+        <TextBlock HorizontalAlignment="Center" Margin="624,87,316,0" TextWrapping="Wrap" Text="Lotto &amp; LottoPlus" VerticalAlignment="Top" Height="51" Width="426" FontSize="50" Foreground="#FFF3F0F0"/>
         <Button Content="Button" HorizontalAlignment="Left" Margin="1135,481,0,0" VerticalAlignment="Top" Click="Button_Click"/>
-        <Image HorizontalAlignment="Left" Height="74" Margin="135,36,0,0" VerticalAlignment="Top" Width="494" Source="Image/salotteryresult_logo.png" />
+        <Image HorizontalAlignment="Left" Height="74" Margin="134,81,0,0" VerticalAlignment="Top" Width="494" Source="Image/salotteryresult_logo.png" />
     </Grid>
 </Page>

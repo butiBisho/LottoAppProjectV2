@@ -21,7 +21,7 @@
     </Page.BottomAppBar>
 
     <Grid Background="#FF38B2B8">
-        <TextBlock HorizontalAlignment="Center" Margin="437,91,437,0" TextWrapping="Wrap" Text="Result Notification" Height="59" Width="492" VerticalAlignment="Top" FontSize="50" Foreground="#FFF5F0F0" TextAlignment="Center" />
+        <TextBlock HorizontalAlignment="Center" Margin="545,91,329,0" TextWrapping="Wrap" Text="Result Notification" Height="59" Width="492" VerticalAlignment="Top" FontSize="50" Foreground="#FFF5F0F0" TextAlignment="Center" />
         <TextBlock Margin="399,291,385,0" TextWrapping="Wrap" Text="Receive a notification when results are available" VerticalAlignment="Top" HorizontalAlignment="Center" Height="50" Foreground="#FFF5F0F0" FontSize="26" TextAlignment="Center" Width="582"/>
 
         <TextBlock x:Name="txtDisplay" HorizontalAlignment="Left" Margin="497,433,0,0" TextWrapping="Wrap" Text="Lotto" VerticalAlignment="Top" Height="29" Width="131" Foreground="#FFF5F0F0" FontSize="26" TextAlignment="Center"/>
@@ -31,6 +31,6 @@
         <ToggleButton x:Name="tbtnPowerball" Content="ON/OFF" HorizontalAlignment="Left" Margin="677,523,0,0" VerticalAlignment="Top" Width="209" Height="59" IsThreeState="True" Checked="tbtnPowerball_Changed" Unchecked="tbtnPowerball_Changed" Indeterminate="tbtnPowerball_Changed" Background="#FF1263B4" Foreground="#FFD8A316"/>
         <TextBlock x:Name="txtbTest" HorizontalAlignment="Left" Margin="1016,314,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Height="53" Width="203" FontSize="20"/>
         <TextBlock x:Name="txtbPower" Margin="1022,408,141,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="53" Width="203" FontSize="20"/>
-        <Image HorizontalAlignment="Left" Height="166" Margin="240,49,0,0" VerticalAlignment="Top" Width="170" Source="Image/photo.jpg" />
+        <Image HorizontalAlignment="Left" Height="74" Margin="134,81,0,0" Width="494" VerticalAlignment="Top" Source="Image/salotteryresult_logo.png" />
     </Grid>
 </Page>

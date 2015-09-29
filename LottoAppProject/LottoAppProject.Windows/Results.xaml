@@ -40,7 +40,7 @@
         <StackPanel x:Name="testing" Orientation="Horizontal" HorizontalAlignment="Left" Height="70" Margin="403,243,0,0" VerticalAlignment="Top" Width="396"/>
         <StackPanel x:Name="bonus" Orientation="Horizontal" Height="70" Margin="846,243,401,0" VerticalAlignment="Top"/>
         <AppBarButton HorizontalAlignment="Left" Icon="Back" Label="Back" Margin="4,4,0,0" VerticalAlignment="Top" Click="AppBarButton_Click_4"/>
-        <TextBlock HorizontalAlignment="Left" Margin="440,128,0,0" TextWrapping="Wrap" Text="Lotto Plus Results" VerticalAlignment="Top" Height="70" Width="403" FontSize="50"/>
+        <TextBlock HorizontalAlignment="Left" Margin="601,55,0,0" TextWrapping="Wrap" Text="Lotto Results" VerticalAlignment="Top" Height="70" Width="295" FontSize="50" RenderTransformOrigin="0.499,0.014"/>
         <Image HorizontalAlignment="Left" Height="74" Margin="134,55,0,0" VerticalAlignment="Top" Width="494" Source="Image/salotteryresult_logo.png" />
     </Grid>
 </Page>

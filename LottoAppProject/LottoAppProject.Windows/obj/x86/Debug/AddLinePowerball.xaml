@@ -24,7 +24,7 @@
 
     <Grid Background="#FF38B2B8">
 
-        <TextBlock HorizontalAlignment="Left" Margin="582,130,0,0" TextWrapping="Wrap" Text="Powerball" VerticalAlignment="Top" Height="49" Width="246" FontSize="50" Foreground="#FFFBF6F6"/>
+        <TextBlock HorizontalAlignment="Left" Margin="636,90,0,0" TextWrapping="Wrap" Text="Powerball" VerticalAlignment="Top" Height="49" Width="246" FontSize="50" Foreground="#FFFBF6F6"/>
         <TextBox x:Name="txtP1" HorizontalAlignment="Left" Margin="687,280,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Foreground="#FF131212" BorderBrush="#FF097EF3" Height="40"/>
         <TextBox x:Name="txtP2" HorizontalAlignment="Left" Margin="687,341,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Foreground="#FF131212" BorderBrush="#FF097EF3" Height="40"/>
         <TextBox x:Name="txtP3" HorizontalAlignment="Left" Margin="687,409,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Foreground="#FF131212" BorderBrush="#FF097EF3" Height="40"/>
