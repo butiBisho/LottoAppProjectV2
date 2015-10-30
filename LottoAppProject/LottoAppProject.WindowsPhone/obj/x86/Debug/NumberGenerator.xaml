@@ -17,18 +17,12 @@
         </CommandBar>
     </Page.BottomAppBar>
 
-    <Grid>
-        <Grid.Background>
-            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
-                <GradientStop Color="Black" Offset="0"/>
-                <GradientStop Color="#FF8EDA7D" Offset="1"/>
-            </LinearGradientBrush>
-        </Grid.Background>
-        <Button x:ConnectionId='5' x:Name="btnGenerate" Content="Generate" HorizontalAlignment="Left" Margin="30,355,0,0" VerticalAlignment="Top" Width="139"                           Background="#FF1263B4" Foreground="#FFD8A316" FontStyle="Italic"/>
-        <Button x:ConnectionId='6' x:Name="btnSave" Content="Save" HorizontalAlignment="Left" Margin="220,356,0,0" VerticalAlignment="Top" Width="140"                       Background="#FF1263B4" Foreground="#FFD8A316" FontStyle="Italic"/>
-        <Button x:ConnectionId='7' x:Name="btnTest" Content="Add Line" HorizontalAlignment="Left" Margin="222,483,0,0" VerticalAlignment="Top"                       Width="139" Background="#FF1263B4" Foreground="#FFD8A316" FontStyle="Italic"/>
+    <Grid Background="#FF38B2B8">
+        <Button x:ConnectionId='5' x:Name="btnGenerate" Content="Generate" HorizontalAlignment="Left" Margin="30,355,0,0" VerticalAlignment="Top" Width="139"                           Background="#FF1263B4" Foreground="#FFD8A316" />
+        <Button x:ConnectionId='6' x:Name="btnSave" Content="Save" HorizontalAlignment="Left" Margin="220,356,0,0" VerticalAlignment="Top" Width="140"                       Background="#FF1263B4" Foreground="#FFD8A316" />
+        <Button x:ConnectionId='7' x:Name="btnTest" Content="Add Line" HorizontalAlignment="Left" Margin="222,447,0,0" VerticalAlignment="Top"                       Width="139" Background="#FF1263B4" Foreground="#FFD8A316" />
         <StackPanel Name="Display" Orientation="Horizontal" Margin="5"/>
-        <TextBlock Margin="52,1,63,0" TextWrapping="Wrap" Text="Number Generator Lotto And LottoPlus" Height="77" Width="285" FontSize="30" TextAlignment="Center" VerticalAlignment="Top" HorizontalAlignment="Center"/>
+        <TextBlock Margin="52,15,63,0" TextWrapping="Wrap" Text="Number Generator Lotto And LottoPlus" Height="77" Width="285" FontSize="25" TextAlignment="Center" VerticalAlignment="Top" HorizontalAlignment="Center"/>
         <TextBlock Height="40" HorizontalAlignment="Left" Margin="2,117,-317,0" x:Name ="errormessage" VerticalAlignment="Top" Width="315" Foreground="#FFF7F1F1" FontSize="30"/>
 
     </Grid>

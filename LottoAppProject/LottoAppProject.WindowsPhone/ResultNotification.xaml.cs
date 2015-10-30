@@ -1,4 +1,5 @@
-﻿using System;
+﻿using LottoAppProject.Class_with_Functions;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -25,6 +26,8 @@ namespace LottoAppProject
         public ResultNotification()
         {
             this.InitializeComponent();
+            this.tbtnLotto.IsChecked = null;
+            this.tbtnPowerball.IsChecked = null;
             if (this.BottomAppBar != null)
             {
                 this.BottomAppBar.IsSticky = true;
@@ -40,20 +43,48 @@ namespace LottoAppProject
         protected override void OnNavigatedTo(NavigationEventArgs e)
         {
         }
-
-        private void btnSetLottoOn_Click(object sender, RoutedEventArgs e)
+                
+        private void AppBarButton_Click(object sender, RoutedEventArgs e)
         {
-            Button b = sender as Button;
-            if (b != null)
+            Frame.GoBack();
+        }
+
+        private void AppBarButton_Click_2(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(ResultNotification));
+        }
+
+        private void NotifyStatus()
+        {
+            switch (this.tbtnLotto.IsChecked)
             {
-                string toastTemplate = b.Name;
+                case null:
+                    this.txtbTest.Text = "null";
+                    break;
+                case true:
+                    this.txtbTest.Text = "On";
+
+                    break;
+                case false:
+                    this.txtbTest.Text = "Off";
+                    break;
+            }
+        }
+
+        private void tbtnLotto_Changed(object sender, RoutedEventArgs e)
+        {
+            this.NotifyStatus();
+            DisplayMessage msg = new DisplayMessage();
+            if (txtbTest.Text != "null")
+            {
+                string toastTemplate = txtbTest.Text;
                 string alarmName = "";
 
                 if (toastTemplate.Contains("On"))
                 {
                     alarmName = "Alarm is set on";
                 }
-                else
+                else if (toastTemplate.Contains("Off"))
                 {
                     alarmName = "Alarm is set off";
                 }
@@ -89,34 +120,24 @@ namespace LottoAppProject
                     var customAlarmScheduledToast = new Windows.UI.Notifications.ScheduledToastNotification(toastDOM, DateTime.Now.AddSeconds(5));
                     toastNotifier.AddToSchedule(customAlarmScheduledToast);
                 }
-
-
             }
+
         }
 
-        private void AppBarButton_Click(object sender, RoutedEventArgs e)
+        private void tbtnPowerball_Changed(object sender, RoutedEventArgs e)
         {
-            Frame.GoBack();
-        }
+            this.powerballNotifySatus();
 
-        private void AppBarButton_Click_2(object sender, RoutedEventArgs e)
-        {
-            this.Frame.Navigate(typeof(ResultNotification));
-        }
-
-        private void btnSetLottoPlusOff_Click(object sender, RoutedEventArgs e)
-        {
-            Button b = sender as Button;
-            if (b != null)
+            if (txtbPower.Text != "null")
             {
-                string toastTemplate = b.Name;
+                string toastTemplate = txtbPower.Text;
                 string alarmName = "";
 
                 if (toastTemplate.Contains("On"))
                 {
                     alarmName = "Alarm is set on";
                 }
-                else
+                else if (toastTemplate.Contains("Off"))
                 {
                     alarmName = "Alarm is set off";
                 }
@@ -152,67 +173,26 @@ namespace LottoAppProject
                     var customAlarmScheduledToast = new Windows.UI.Notifications.ScheduledToastNotification(toastDOM, DateTime.Now.AddSeconds(5));
                     toastNotifier.AddToSchedule(customAlarmScheduledToast);
                 }
-
-
             }
+
         }
 
-        private void btnSetLottoPlusOn_Click(object sender, RoutedEventArgs e)
+        private void powerballNotifySatus()
         {
-                        Button b = sender as Button;
-            if (b != null)
+            switch (this.tbtnPowerball.IsChecked)
             {
-                string toastTemplate = b.Name;
-                string alarmName = "";
+                case null:
+                    this.txtbPower.Text = "null";
+                    break;
+                case true:
+                    this.txtbPower.Text = "On";
 
-                if (toastTemplate.Contains("On"))
-                {
-                    alarmName = "Alarm is set on";
-                }
-                else
-                {
-                    alarmName = "Alarm is set off";
-                }
-
-                string toastXmlString =
-                    "<toast duration=\"long\">\n" +
-                        "<visual>\n" +
-                            "<binding template=\"ToastText02\">\n" +
-                                "<text id=\"1\">Powerball Notifications</text>\n" +
-                                "<text id=\"2\">" + alarmName + "</text>\n" +
-                            "</binding>\n" +
-                        "</visual>\n" +
-                        "<commands scenario=\"alarm\">\n" +
-                            "<command id=\"snooze\"/>\n" +
-                            "<command id=\"dismiss\"/>\n" +
-                        "</commands>\n" +
-                        "<audio src=\"ms-winsoundevent:Notification.Looping.Alarm2\" loop=\"true\" />\n" +
-                    "</toast>\n";
-                var toastDOM = new Windows.Data.Xml.Dom.XmlDocument();
-                toastDOM.LoadXml(toastXmlString);
-
-                var toastNotifier = Windows.UI.Notifications.ToastNotificationManager.CreateToastNotifier();
-
-                if (toastTemplate.Contains("On"))
-                {
-                    int customSnoozeSeconds = 5 * 60;
-                    TimeSpan snoozeInterval = TimeSpan.FromSeconds(customSnoozeSeconds);
-                    var customAlarmScheduledToast = new Windows.UI.Notifications.ScheduledToastNotification(toastDOM, DateTime.Now.AddSeconds(5), snoozeInterval, 0);
-                    toastNotifier.AddToSchedule(customAlarmScheduledToast);
-                }
-                else
-                {
-                    var customAlarmScheduledToast = new Windows.UI.Notifications.ScheduledToastNotification(toastDOM, DateTime.Now.AddSeconds(5));
-                    toastNotifier.AddToSchedule(customAlarmScheduledToast);
-                }
-
-
+                    break;
+                case false:
+                    this.txtbPower.Text = "Off";
+                    break;
             }
-        
         }
-
-
-
 
     }
 }

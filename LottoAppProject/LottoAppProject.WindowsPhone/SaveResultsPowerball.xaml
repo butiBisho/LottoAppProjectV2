@@ -18,22 +18,27 @@
     </Page.BottomAppBar>
 
     <Grid Background="#FF38B2B8">
-        <ComboBox x:Name="cmbType" HorizontalAlignment="Left" Margin="215,86,0,0" VerticalAlignment="Top" Width="185" BorderBrush="#CC27ACD3">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="141*"/>
+            <RowDefinition Height="149*"/>
+        </Grid.RowDefinitions>
+        <ComboBox x:Name="cmbType" HorizontalAlignment="Left" Margin="215,144,0,0" VerticalAlignment="Top" Width="185" BorderBrush="#CC27ACD3">
             <ComboBoxItem Content="PowerBall"/>
         </ComboBox>
-        <TextBlock HorizontalAlignment="Left" Margin="87,180,0,0" TextWrapping="Wrap" Text="Number 1" VerticalAlignment="Top" Foreground="#FFFFF9F9" FontSize="20" TextAlignment="Center"/>
-        <TextBlock HorizontalAlignment="Left" Margin="87,244,0,0" TextWrapping="Wrap" Text="Number 2" VerticalAlignment="Top" Foreground="#FFFFF9F9" FontSize="20" TextAlignment="Center"/>
-        <TextBlock HorizontalAlignment="Left" Margin="87,304,0,0" TextWrapping="Wrap" Text="Number 3" VerticalAlignment="Top" Foreground="#FFFFF9F9" FontSize="20" TextAlignment="Center"/>
-        <TextBlock HorizontalAlignment="Left" Margin="87,374,0,0" TextWrapping="Wrap" Text="Number 4" VerticalAlignment="Top" Foreground="#FFFFF9F9" FontSize="20" TextAlignment="Center"/>
-        <TextBlock HorizontalAlignment="Left" Margin="87,441,0,0" TextWrapping="Wrap" Text="Number 5" VerticalAlignment="Top" Foreground="#FFFFF9F9" FontSize="20" TextAlignment="Center"/>
-        <TextBox x:Name="txtOne" HorizontalAlignment="Left" Margin="230,175,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="111" Foreground="#FF131212" BorderBrush="#FF097EF3"/>
-        <TextBox x:Name="txtTwo" HorizontalAlignment="Left" Margin="230,238,0,0" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="0.588,2.375" Width="111" Foreground="#FF131212" BorderBrush="#FF097EF3"/>
-        <TextBox x:Name="txtThree" HorizontalAlignment="Left" Margin="230,301,0,0" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="0.588,2.375" Width="111" Foreground="#FF131212" BorderBrush="#FF097EF3"/>
-        <TextBox x:Name="txtFour" HorizontalAlignment="Left" Margin="230,367,0,0" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="0.588,2.375" Width="111" Foreground="#FF131212" BorderBrush="#FF097EF3"/>
-        <TextBox x:Name="txtFive" HorizontalAlignment="Left" Margin="230,434,0,0" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="0.588,2.375" Width="111" Foreground="#FF131212" BorderBrush="#FF097EF3"/>
-        <TextBlock HorizontalAlignment="Left" Margin="87,509,0,0" TextWrapping="Wrap" Text="Bonus" VerticalAlignment="Top" Foreground="#FFFFF9F9" FontSize="20" TextAlignment="Center"/>
-        <TextBox x:Name="txtBonus" HorizontalAlignment="Left" Margin="230,503,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="111" Foreground="#FF131212" BorderBrush="#FF097EF3"/>
-        <DatePicker x:Name="dpDate" HorizontalAlignment="Left" Margin="12,95,0,0" VerticalAlignment="Top" MonthFormat="{}{month.integer}" Width="171"/>
-        <TextBlock HorizontalAlignment="Left" Margin="150,0,0,555" TextWrapping="Wrap" Text="Powerball" VerticalAlignment="Bottom" Height="25" Width="112" FontSize="25" Foreground="#FFF3F0F0"/>
+        <TextBlock HorizontalAlignment="Left" Margin="101,238,0,0" TextWrapping="Wrap" Text="Number 1" VerticalAlignment="Top" Foreground="#FFFFF9F9" FontSize="16" TextAlignment="Center"/>
+        <TextBlock HorizontalAlignment="Left" Margin="101,20.333,0,0" TextWrapping="Wrap" Text="Number 2" VerticalAlignment="Top" Foreground="#FFFFF9F9" FontSize="16" TextAlignment="Center" Grid.Row="1"/>
+        <TextBlock HorizontalAlignment="Left" Margin="101,76.333,0,0" TextWrapping="Wrap" Text="Number 3" VerticalAlignment="Top" Foreground="#FFFFF9F9" FontSize="16" TextAlignment="Center" Grid.Row="1"/>
+        <TextBlock HorizontalAlignment="Left" Margin="101,138.333,0,0" TextWrapping="Wrap" Text="Number 4" VerticalAlignment="Top" Foreground="#FFFFF9F9" FontSize="16" TextAlignment="Center" Grid.Row="1"/>
+        <TextBlock HorizontalAlignment="Left" Margin="101,193.333,0,0" TextWrapping="Wrap" Text="Number 5" VerticalAlignment="Top" Foreground="#FFFFF9F9" FontSize="16" TextAlignment="Center" Grid.Row="1"/>
+        <TextBox x:Name="txtOne" HorizontalAlignment="Left" Margin="213,233,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="60" Foreground="#FF131212" BorderBrush="#FF097EF3"/>
+        <TextBox x:Name="txtTwo" HorizontalAlignment="Left" Margin="213,14.333,0,0" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="0.588,2.375" Width="60" Foreground="#FF131212" BorderBrush="#FF097EF3" Grid.Row="1"/>
+        <TextBox x:Name="txtThree" HorizontalAlignment="Left" Margin="212,73.333,0,0" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="0.588,2.375" Width="60" Foreground="#FF131212" BorderBrush="#FF097EF3" Grid.Row="1"/>
+        <TextBox x:Name="txtFour" HorizontalAlignment="Left" Margin="213,131.333,0,0" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="0.588,2.375" Width="60" Foreground="#FF131212" BorderBrush="#FF097EF3" Grid.Row="1"/>
+        <TextBox x:Name="txtFive" HorizontalAlignment="Left" Margin="213,186.333,0,0" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="0.588,2.375" Width="60" Foreground="#FF131212" BorderBrush="#FF097EF3" Grid.Row="1"/>
+        <TextBlock HorizontalAlignment="Left" Margin="103,245.333,0,0" TextWrapping="Wrap" Text="Bonus" VerticalAlignment="Top" Foreground="#FFFFF9F9" FontSize="16" TextAlignment="Center" Grid.Row="1"/>
+        <TextBox x:Name="txtBonus" HorizontalAlignment="Left" Margin="213,239.333,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="60" Foreground="#FF131212" BorderBrush="#FF097EF3" Grid.Row="1"/>
+        <DatePicker x:Name="dpDate" HorizontalAlignment="Left" Margin="2,153,0,0" VerticalAlignment="Top" MonthFormat="{}{month.integer}" Width="171"/>
+        <TextBlock HorizontalAlignment="Left" Margin="0,0,0,153.667" TextWrapping="Wrap" Text="Powerball" VerticalAlignment="Bottom" Height="25" Width="112" FontSize="25" Foreground="#FFF3F0F0"/>
+        <Image HorizontalAlignment="Left" Height="74" VerticalAlignment="Top" Width="309" Source="Image/salotteryresult_logo.png" Margin="4,6,0,0"/>
     </Grid>
 </Page>

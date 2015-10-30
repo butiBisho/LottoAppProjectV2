@@ -20,20 +20,21 @@
             <RowDefinition Height="57*"/>
             <RowDefinition Height="523*"/>
         </Grid.RowDefinitions>
-        <ComboBox x:Name="cmbGameType" HorizontalAlignment="Left" Margin="190,35,0,0" VerticalAlignment="Top" Width="205" BorderBrush="#CC27ACD3" Height="23" Grid.RowSpan="2">
+        <ComboBox x:Name="cmbGameType" HorizontalAlignment="Left" Margin="240,-3.667,0,0" VerticalAlignment="Top" Width="160" BorderBrush="#CC27ACD3" Height="31" Grid.Row="1">
             <ComboBoxItem Content="Lotto"/>
             <ComboBoxItem Content="LottoPlus"/>
             <ComboBoxItem Content="PowerBall"/>
         </ComboBox>
-        <TextBlock HorizontalAlignment="Left" Margin="60,204.333,0,0" TextWrapping="Wrap" Text="Compare with the Saved Numbers" VerticalAlignment="Top" Foreground="#FFF7F4F4" FontSize="20" TextAlignment="Center" Grid.Row="1"/>
-        <TextBlock HorizontalAlignment="Left" Margin="139,19.333,0,0" TextWrapping="Wrap" Text="Winning Results" VerticalAlignment="Top" Foreground="#FFF7F4F4" FontSize="20" TextAlignment="Center" Grid.Row="1"/>
-        <Button x:Name="btnSearch" Content="Search" HorizontalAlignment="Left" Margin="13,439.333,0,0" VerticalAlignment="Top" Width="136" Click="btnSearch_Click" Background="#FF1263B4" Foreground="#FFD8A316" Height="50" Grid.Row="1"/>
-        <Button x:Name="btnSaved" Content="Saved Numbers" HorizontalAlignment="Left" Margin="12,325.333,0,0" VerticalAlignment="Top" Width="147" Click="btnSaved_Click" Background="#FF1263B4" Foreground="#FFD8A316" Height="50" Grid.Row="1"/>
-        <ListBox x:Name="lstDisplaySaved" HorizontalAlignment="Left" Height="93" Margin="10,232.333,0,0" VerticalAlignment="Top" Width="385" BorderBrush="#FFF32A0B" Grid.Row="1"/>
+        <TextBlock HorizontalAlignment="Left" Margin="60,242.333,0,0" TextWrapping="Wrap" Text="Compare with the Saved Numbers" VerticalAlignment="Top" Foreground="#FFF7F4F4" FontSize="20" TextAlignment="Center" Grid.Row="1"/>
+        <TextBlock HorizontalAlignment="Left" Margin="139,39.333,0,0" TextWrapping="Wrap" Text="Winning Results" VerticalAlignment="Top" Foreground="#FFF7F4F4" FontSize="20" TextAlignment="Center" Grid.Row="1"/>
+        <Button x:Name="btnSearch" Content="Browse Previous Results" HorizontalAlignment="Left" Margin="13,463.333,0,0" VerticalAlignment="Top" Width="267" Click="btnSearch_Click" Background="#FF1263B4" Foreground="#FFD8A316" Height="50" Grid.Row="1"/>
+        <Button x:Name="btnSaved" Content="View Your Saved Numbers" HorizontalAlignment="Left" Margin="12,361.333,0,0" VerticalAlignment="Top" Width="268" Click="btnSaved_Click" Background="#FF1263B4" Foreground="#FFD8A316" Height="50" Grid.Row="1"/>
+        <ListBox x:Name="lstDisplaySaved" HorizontalAlignment="Left" Height="93" Margin="10,266.333,0,0" VerticalAlignment="Top" Width="385" BorderBrush="#FFF32A0B" Grid.Row="1"/>
         <StackPanel x:Name="testing" Orientation="Horizontal" Margin="20,20,20,0" VerticalAlignment="Top"/>
-        <StackPanel x:Name="bonus" Orientation="Horizontal" HorizontalAlignment="Left" Height="70" Margin="148,117.333,0,0" VerticalAlignment="Top" Width="100" Grid.Row="1"/>
-        <DatePicker x:Name="dpDate" HorizontalAlignment="Left" Height="51" Margin="12,384.333,0,0" VerticalAlignment="Top" Width="319" DayVisible="True" Grid.Row="1"/>
+        <StackPanel x:Name="bonus" Orientation="Horizontal" HorizontalAlignment="Left" Height="70" Margin="148,159.333,0,0" VerticalAlignment="Top" Width="100" Grid.Row="1"/>
+        <DatePicker x:Name="dpDate" HorizontalAlignment="Left" Height="51" Margin="12,414.333,0,0" VerticalAlignment="Top" Width="319" DayVisible="True" Grid.Row="1"/>
         <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Lotto Plus Results" VerticalAlignment="Top" Height="30" Width="280" FontSize="25
-                   "/>
+                   " Margin="4,54,0,0" Grid.RowSpan="2"/>
+        <Image HorizontalAlignment="Left" Height="57" VerticalAlignment="Top" Width="309" Source="Image/salotteryresult_logo.png" Margin="8,2,0,0" Grid.RowSpan="2"/>
     </Grid>
 </Page>

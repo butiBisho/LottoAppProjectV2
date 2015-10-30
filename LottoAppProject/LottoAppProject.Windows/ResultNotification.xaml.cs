@@ -33,9 +33,7 @@ namespace LottoAppProject
                 this.BottomAppBar.IsSticky = true;
                 this.BottomAppBar.IsOpen = true;
             }
-        }
-
-       
+        }       
 
         private void AppBarButton_Click_1(object sender, RoutedEventArgs e)
         {
@@ -191,11 +189,6 @@ namespace LottoAppProject
                     break;
             }
         }
-
-
-
-
-
 
     }
 }

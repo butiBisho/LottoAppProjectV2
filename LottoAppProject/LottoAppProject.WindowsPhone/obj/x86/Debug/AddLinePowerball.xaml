@@ -16,25 +16,19 @@
         </CommandBar>
     </Page.BottomAppBar>
 
-    <Grid>
-        <Grid.Background>
-            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
-                <GradientStop Color="Black" Offset="0"/>
-                <GradientStop Color="#FF8EDA7D" Offset="1"/>
-            </LinearGradientBrush>
-        </Grid.Background>
-        <TextBlock Margin="157,47,128,0" TextWrapping="Wrap" Text="Powerball" VerticalAlignment="Top" Height="25" FontSize="19" FontStyle="Italic" Foreground="#FFF9F3F3"/>
-        <TextBox x:Name="txtP1" HorizontalAlignment="Left" Margin="225,103,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Foreground="#FF131212" BorderBrush="#FF097EF3" Height="20"/>
-        <TextBox x:Name="txtP2" HorizontalAlignment="Left" Margin="225,165,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Foreground="#FF131212" BorderBrush="#FF097EF3" Height="20"/>
-        <TextBox x:Name="txtP3" HorizontalAlignment="Left" Margin="225,234,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Foreground="#FF131212" BorderBrush="#FF097EF3" Height="20"/>
-        <TextBox x:Name="txtP4" HorizontalAlignment="Left" Margin="225,296,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Foreground="#FF131212" BorderBrush="#FF097EF3" Height="20"/>
-        <TextBox x:Name="txtP5" HorizontalAlignment="Left" Margin="225,362,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Foreground="#FF131212" BorderBrush="#FF097EF3" Height="20"/>
+    <Grid Background="#FF38B2B8">
+        <TextBlock Margin="157,53,128,0" TextWrapping="Wrap" Text="Powerball" VerticalAlignment="Top" Height="25" FontSize="19" Foreground="#FFF9F3F3"/>
+        <TextBox x:Name="txtP1" HorizontalAlignment="Left" Margin="219,135,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Foreground="#FF131212" BorderBrush="#FF097EF3" Height="20"/>
+        <TextBox x:Name="txtP2" HorizontalAlignment="Left" Margin="219,197,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Foreground="#FF131212" BorderBrush="#FF097EF3" Height="20"/>
+        <TextBox x:Name="txtP3" HorizontalAlignment="Left" Margin="219,266,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Foreground="#FF131212" BorderBrush="#FF097EF3" Height="20"/>
+        <TextBox x:Name="txtP4" HorizontalAlignment="Left" Margin="219,328,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Foreground="#FF131212" BorderBrush="#FF097EF3" Height="20"/>
+        <TextBox x:Name="txtP5" HorizontalAlignment="Left" Margin="219,394,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Foreground="#FF131212" BorderBrush="#FF097EF3" Height="20"/>
 
-        <TextBlock HorizontalAlignment="Left" Margin="140,372,0,0" TextWrapping="Wrap" Text="Number 5" VerticalAlignment="Top" Foreground="#FFF7F6F6" FontSize="13" FontStyle="Italic"/>
-        <TextBlock HorizontalAlignment="Left" Margin="140,306,0,0" TextWrapping="Wrap" Text="Number 4" VerticalAlignment="Top" Foreground="#FFF7F4F4" FontSize="13" FontStyle="Italic"/>
-        <TextBlock HorizontalAlignment="Left" Margin="140,242,0,0" TextWrapping="Wrap" Text="Number 3" VerticalAlignment="Top" Foreground="#FFF5F2F2" FontSize="13" FontStyle="Italic"/>
-        <TextBlock HorizontalAlignment="Left" Margin="140,173,0,0" TextWrapping="Wrap" Text="Number 2" VerticalAlignment="Top" Foreground="#FFF9F7F7" FontSize="13" FontStyle="Italic"/>
-        <TextBlock HorizontalAlignment="Left" Margin="140,112,0,0" TextWrapping="Wrap" Text="Number 1" VerticalAlignment="Top" Foreground="#FFF7F4F4" FontSize="13" FontStyle="Italic"/>
+        <TextBlock HorizontalAlignment="Left" Margin="134,404,0,0" TextWrapping="Wrap" Text="Number 5" VerticalAlignment="Top" Foreground="#FFF7F6F6" FontSize="13"/>
+        <TextBlock HorizontalAlignment="Left" Margin="134,338,0,0" TextWrapping="Wrap" Text="Number 4" VerticalAlignment="Top" Foreground="#FFF7F4F4" FontSize="13"/>
+        <TextBlock HorizontalAlignment="Left" Margin="134,274,0,0" TextWrapping="Wrap" Text="Number 3" VerticalAlignment="Top" Foreground="#FFF5F2F2" FontSize="13"/>
+        <TextBlock HorizontalAlignment="Left" Margin="134,205,0,0" TextWrapping="Wrap" Text="Number 2" VerticalAlignment="Top" Foreground="#FFF9F7F7" FontSize="13" />
+        <TextBlock HorizontalAlignment="Left" Margin="134,144,0,0" TextWrapping="Wrap" Text="Number 1" VerticalAlignment="Top" Foreground="#FFF7F4F4" FontSize="13" />
     </Grid>
 </Page>
 

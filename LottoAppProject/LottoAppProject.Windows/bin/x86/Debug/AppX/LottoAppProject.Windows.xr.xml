@@ -58,6 +58,7 @@
       <RootProperty Name="TextAlignment" />
       <RootProperty Name="Inlines" />
       <RootProperty Name="Name" />
+      <RootProperty Name="RenderTransformOrigin" />
       <RootProperty Name="FontStyle" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.TextBox">

@@ -15,14 +15,15 @@
     </Page.BottomAppBar>
 
     <Grid Background="#FF38B2B8">
-        <TextBlock HorizontalAlignment="Center" Margin="75,55,42,0" TextWrapping="Wrap" Text="Result Notification" Height="39" Width="283" VerticalAlignment="Top" FontSize="26" Foreground="#FFF5F4F4" TextAlignment="Center" FontWeight="Bold" />
-        <TextBlock Margin="0,98,31,0" TextWrapping="Wrap" Text="Receive a notification when results are available" VerticalAlignment="Top" HorizontalAlignment="Right" Height="18" Foreground="#FFF5F4F4" FontSize="15" TextAlignment="Center" />
-        <Button x:Name="btnSetLottoOff" Content="OFF" HorizontalAlignment="Left" Margin="157,210,0,0" VerticalAlignment="Top" Width="99" RenderTransformOrigin="0.868,0.442" Height="53.254" FontSize="12" Background="#FF1263B4" Click="btnSetLottoOn_Click"  Foreground="#FFD8A316"/>
-        <Button x:Name="btnSetLottoOn" Content="ON" HorizontalAlignment="Left" Margin="278,210,0,0" VerticalAlignment="Top" Width="57" FontSize="12" Height="48" Click="btnSetLottoOn_Click" Background="#FF1263B4" Foreground="#FFD8A316"/>
-        <TextBlock x:Name="txtDisplay" HorizontalAlignment="Left" Margin="11,227,0,0" TextWrapping="Wrap" Text="Lotto" VerticalAlignment="Top" Height="29" Width="95" Foreground="#FFF7F6F6" FontSize="20" TextAlignment="Center"/>
-        <TextBlock HorizontalAlignment="Left" Foreground="#FFF7F6F6" Margin="11,299,0,0" TextWrapping="Wrap" Text="Powerball" VerticalAlignment="Top" Width="92" Height="30" FontSize="20" TextAlignment="Center"/>
-        <Button x:Name="btnSetLottoPlusOff" Content="OFF" HorizontalAlignment="Left" Margin="151,279,0,0" VerticalAlignment="Top" Width="53" FontSize="12" Height="47" Background="#FF1263B4"  Foreground="#FFD8A316" Click="btnSetLottoPlusOff_Click"/>
-        <Button x:Name="btnSetLottoPlusOn" Foreground="#FFD8A316" Content="ON" HorizontalAlignment="Left" Margin="280,278,0,0" VerticalAlignment="Top" Width="110" FontSize="12" Height="60" Background="#FF1263B4" Click="btnSetLottoPlusOn_Click"/>
+        <TextBlock HorizontalAlignment="Center" Margin="4,74,113,0" TextWrapping="Wrap" Text="Result Notification" Height="39" Width="283" VerticalAlignment="Top" FontSize="26" Foreground="#FFF5F4F4" FontWeight="Bold" />
+        <TextBlock Margin="0,160,23,0" TextWrapping="Wrap" Text="Receive a notification when results are available" VerticalAlignment="Top" HorizontalAlignment="Right" Height="38" Foreground="#FFF5F4F4" FontSize="18" TextAlignment="Center" Width="359" />
+        <TextBlock x:Name="txtDisplay" HorizontalAlignment="Left" Margin="-5,266,0,0" TextWrapping="Wrap" Text="Lotto" VerticalAlignment="Top" Height="29" Width="95" Foreground="#FFF7F6F6" FontSize="20" TextAlignment="Center"/>
+        <TextBlock HorizontalAlignment="Left" Foreground="#FFF7F6F6" Margin="17,402,0,0" TextWrapping="Wrap" Text="Powerball" VerticalAlignment="Top" Width="92" Height="30" FontSize="20" TextAlignment="Center"/>
+        <Image HorizontalAlignment="Left" Height="57" VerticalAlignment="Top" Width="309" Source="Image/salotteryresult_logo.png" Margin="8,2,0,0"/>
+        <ToggleButton x:Name="tbtnLotto" Content="ON/OFF" HorizontalAlignment="Left" Margin="144,249,0,0" VerticalAlignment="Top" Width="209" Height="59" IsThreeState="True" Checked="tbtnPowerball_Changed" Unchecked="tbtnPowerball_Changed" Indeterminate="tbtnPowerball_Changed" Background="#FF1263B4" Foreground="#FFD8A316"/>
+        <ToggleButton x:Name="tbtnPowerball" Content="ON/OFF" HorizontalAlignment="Left" Margin="142,384,0,0" VerticalAlignment="Top" Width="209" Height="59" IsThreeState="True" Checked="tbtnPowerball_Changed" Unchecked="tbtnPowerball_Changed" Indeterminate="tbtnPowerball_Changed" Background="#FF1263B4" Foreground="#FFD8A316"/>
+        <TextBlock x:Name="txtbTest" HorizontalAlignment="Left" Margin="150,316,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Height="53" Width="203" FontSize="20"/>
+        <TextBlock x:Name="txtbPower" Margin="144,445,53,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="53" Width="203" FontSize="20"/>
 
     </Grid>
 </Page>

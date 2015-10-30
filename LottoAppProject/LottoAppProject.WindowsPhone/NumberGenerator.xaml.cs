@@ -102,7 +102,7 @@ namespace LottoAppProject
             //lstShow.Items.Add(line);
             //display new style
             Shared.DrawTesting(ref Display, ref numbers);
-            msg.msgBox("Below on the app bar, you may opt to save the generated numbers");
+            //msg.msgBox("Below on the app bar, you may opt to save the generated numbers");
         }
 
         private void btnSave_Click(object sender, RoutedEventArgs e)

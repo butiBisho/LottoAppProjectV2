@@ -93,27 +93,9 @@ namespace LottoAppProject
             }
         }
 
-        private LottoAppProject.App app = (Application.Current as App);
-
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-            test(1);
-        }
-
-        private void test(int id)
-        {
-            using (var db = new SQLite.SQLiteConnection(app.dbPath))
-            {
-                db.Execute("Delete from PowerBallResults where Id = ?", id);
-            }
-        }
-
         private void AppBarButton_Click(object sender, RoutedEventArgs e)
         {
             Frame.GoBack();
         }
-
-
-
     }
 }

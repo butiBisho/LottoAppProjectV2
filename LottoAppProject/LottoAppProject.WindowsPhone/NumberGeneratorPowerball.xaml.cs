@@ -117,7 +117,7 @@ namespace LottoAppProject
                 dd = numbers[3];
                 ee = numbers[4];
                 lottery.savePowerballGeneratedNumbers(aa, bb, cc, dd, ee);
-                msg.msgBox("Successfully Saved. You will can view your numbers on the results page and compare with the latest Lotto and Lotto Plus results");
+                //msg.msgBox("Successfully Saved. You will can view your numbers on the results page and compare with the latest Lotto and Lotto Plus results");
             }
             catch (Exception ex)
             {

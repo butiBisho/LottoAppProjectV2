@@ -18,12 +18,12 @@
     </Page.BottomAppBar>
 
     <Grid Background="#FF38B2B8">
-        <Button x:Name="btnGenerate" Content="Generate" HorizontalAlignment="Left" Margin="30,355,0,0" VerticalAlignment="Top" Width="139" Click="btnGenerate_Click" Background="#FF1263B4" Foreground="#FFD8A316" />
+        <Button x:Name="btnGenerate" Content="Generate" HorizontalAlignment="Left" Margin="22,355,0,0" VerticalAlignment="Top" Width="139" Click="btnGenerate_Click" Background="#FF1263B4" Foreground="#FFD8A316" />
         <Button x:Name="btnSave" Content="Save" HorizontalAlignment="Left" Margin="220,356,0,0" VerticalAlignment="Top" Width="140" Click="btnSave_Click" Background="#FF1263B4" Foreground="#FFD8A316" />
-        <Button x:Name="btnTest" Content="Add Line" HorizontalAlignment="Left" Margin="222,447,0,0" VerticalAlignment="Top" Click="btnTest_Click" Width="139" Background="#FF1263B4" Foreground="#FFD8A316" />
+        <Button x:Name="btnTest" Content="Add Line" HorizontalAlignment="Left" Margin="22,444,0,0" VerticalAlignment="Top" Click="btnTest_Click" Width="139" Background="#FF1263B4" Foreground="#FFD8A316" />
         <StackPanel Name="Display" Orientation="Horizontal" Margin="5"/>
-        <TextBlock Margin="52,15,63,0" TextWrapping="Wrap" Text="Number Generator Lotto And LottoPlus" Height="77" Width="285" FontSize="25" TextAlignment="Center" VerticalAlignment="Top" HorizontalAlignment="Center"/>
+        <TextBlock Margin="6,65,109,0" TextWrapping="Wrap" Text="Number Generator Lotto And LottoPlus" Height="77" Width="285" FontSize="25" TextAlignment="Center" VerticalAlignment="Top" HorizontalAlignment="Center"/>
         <TextBlock Height="40" HorizontalAlignment="Left" Margin="2,117,-317,0" x:Name ="errormessage" VerticalAlignment="Top" Width="315" Foreground="#FFF7F1F1" FontSize="30"/>
-
+        <Image HorizontalAlignment="Left" Height="57" VerticalAlignment="Top" Width="309" Source="Image/salotteryresult_logo.png"/>
     </Grid>
 </Page>

@@ -33,7 +33,7 @@
         <Button x:Name="btnGenerate" Content="Generate" HorizontalAlignment="Left" Margin="399,459,0,0" VerticalAlignment="Top" Width="563" Background="#FF1263B4" Foreground="#FFD8A316" FontStyle="Italic" Height="50" Click="btnGenerate_Click" FontFamily="Global User Interface"/>
         <StackPanel Name="Display" HorizontalAlignment="Center" Height="100" Orientation="Horizontal" Margin="468,285,342,383" Width="556"/>
         <AppBarButton HorizontalAlignment="Left" Icon="Back" Label="Back" Margin="2,0,0,0" VerticalAlignment="Top" Click="AppBarButton_Click"/>
-        <TextBlock Margin="522,74,325,0" TextWrapping="Wrap" Height="128" Width="519" FontSize="50" TextAlignment="Center" VerticalAlignment="Top" HorizontalAlignment="Center">
+        <TextBlock Margin="608,74,239,0" TextWrapping="Wrap" Height="128" Width="519" FontSize="50" TextAlignment="Center" VerticalAlignment="Top" HorizontalAlignment="Center">
         	<Run Text="Number Generator "/>
         	<LineBreak/>
         	<Run Text="Lotto And Lotto"/>

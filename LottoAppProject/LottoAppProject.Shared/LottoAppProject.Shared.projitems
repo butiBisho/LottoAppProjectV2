@@ -17,6 +17,7 @@
     </Compile>
     <Compile Include="$(MSBuildThisFileDirectory)Class_with_Functions\buti.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Class_with_Functions\CheckGameType.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Class_with_Functions\Converter.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Class_with_Functions\DisplayMessage.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Class_with_Functions\DisplayResults.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Class_with_Functions\GetResults.cs" />
