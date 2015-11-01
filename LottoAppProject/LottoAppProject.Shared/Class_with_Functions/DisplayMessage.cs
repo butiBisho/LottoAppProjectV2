@@ -1,7 +1,9 @@
-﻿using System;
+﻿using LottoAppProject.Model_Class;
+using System;
 using System.Collections.Generic;
 using System.Text;
 using Windows.UI.Popups;
+using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 
 namespace LottoAppProject.Class_with_Functions
@@ -179,6 +181,10 @@ namespace LottoAppProject.Class_with_Functions
             five5.Text = string.Empty;
             six6.Text = string.Empty;
         }
+
+        private LottoAppProject.App app = (Application.Current as App);
+
+
 
     }
 }

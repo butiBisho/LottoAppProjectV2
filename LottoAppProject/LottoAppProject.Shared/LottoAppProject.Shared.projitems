@@ -24,6 +24,7 @@
     <Compile Include="$(MSBuildThisFileDirectory)Class_with_Functions\Lotto.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Class_with_Functions\Shared.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Class_with_Functions\ViewModelBase.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model_Class\Administrator.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Model_Class\LottoLiveResults.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Model_Class\LottoPlusResults.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Model_Class\LottoSaved.cs" />

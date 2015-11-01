@@ -23,7 +23,7 @@
     </Page.BottomAppBar>
 
     <Grid Background="#FF38B2B8">
-        <TextBlock Margin="596,82,349,0" TextWrapping="Wrap" Text="Lotto &amp; LottoPlus" Height="55" FontSize="50" Foreground="#FFFBF6F6" VerticalAlignment="Top"/>
+        <TextBlock Margin="638,82,307,0" TextWrapping="Wrap" Text="Lotto &amp; LottoPlus" Height="55" FontSize="50" Foreground="#FFFBF6F6" VerticalAlignment="Top"/>
         <TextBox x:Name="txtOne" HorizontalAlignment="Center" Margin="685,284,617,0" TextWrapping="Wrap" VerticalAlignment="Top" Foreground="#FF131212" BorderBrush="#FF097EF3" Height="40"/>
         <TextBox x:Name="txtTwo" HorizontalAlignment="Center" Margin="685,345,617,0" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="0.467,1.92" Foreground="#FF131212" BorderBrush="#FF097EF3" Height="40"/>
         <TextBox x:Name="txtThree" HorizontalAlignment="Center" Margin="685,413,617,0" TextWrapping="Wrap" VerticalAlignment="Top" Foreground="#FF131212" BorderBrush="#FF097EF3" Height="40"/>
@@ -37,7 +37,7 @@
         <TextBlock HorizontalAlignment="Center" Margin="562,613,715,0" TextWrapping="Wrap" Text="Number 6" VerticalAlignment="Top" Foreground="#FFFBF6F6" FontSize="20" />
         <TextBlock Margin="562,287,715,0" TextWrapping="Wrap" Text="Number 1" Foreground="#FFFBF6F6" FontSize="20" VerticalAlignment="Top" HorizontalAlignment="Center" />
         <AppBarButton x:ConnectionId='4' HorizontalAlignment="Left" Icon="Back" Label="Back" Margin="2,2,0,0" VerticalAlignment="Top"                           />
-        <TextBlock HorizontalAlignment="Left" Margin="470,215,0,0" TextWrapping="Wrap" Text="Save the numbers you played with" VerticalAlignment="Top" FontSize="26"/>
+        <TextBlock HorizontalAlignment="Left" Margin="470,209,0,0" TextWrapping="Wrap" Text="Save the numbers you played with" VerticalAlignment="Top" FontSize="26"/>
         <Image HorizontalAlignment="Left" Height="74" Margin="134,81,0,0" VerticalAlignment="Top" Width="494" Source="Image/salotteryresult_logo.png" />
     </Grid>
 </Page>

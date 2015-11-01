@@ -144,5 +144,20 @@ namespace LottoAppProject.Class_with_Functions
             }
         }
 
+        public void InsertAdminDetails(string FName, string LName, string email, string password)
+        {
+            using (var db = new SQLite.SQLiteConnection(app.dbPath))
+            {
+                var query = db.Insert(new Administrator() 
+                { 
+                    idNum = 0,
+                    firstName = FName,
+                    surname = LName,
+                    email = email,
+                    password = password
+                });
+            }
+        }
+
     }
 }

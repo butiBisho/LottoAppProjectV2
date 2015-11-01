@@ -227,5 +227,14 @@ namespace LottoAppProject.Class_with_Functions
             }
         }
 
+        public Administrator LogIn(string em, string pas)
+        {
+            using (var db = new SQLite.SQLiteConnection(app.dbPath))
+            {
+                var query = db.Query<Administrator>("select * from Administrator where email = '" + em + "' and password = '" + pas + "'").FirstOrDefault();
+                return query;
+            }
+        }
+
     }
 }

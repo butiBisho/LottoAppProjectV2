@@ -33,15 +33,16 @@
         <TextBlock HorizontalAlignment="Left" Margin="477,345,0,0" TextWrapping="Wrap" Text="Compare with the Saved Numbers" VerticalAlignment="Top" Foreground="#FFF7F4F4" FontSize="30" TextAlignment="Center" Height="45"/>
 
         <DatePicker x:Name="dpDate" HorizontalAlignment="Left" Height="41" Margin="683,616,0,0" VerticalAlignment="Top" Width="319" DayVisible="True"/>
-        <Button x:ConnectionId='3' x:Name="btnSearch" Content="Browse Previous results" HorizontalAlignment="Left" Margin="396,613,0,0" VerticalAlignment="Top" Width="243" Background="#FF1263B4" Foreground="#FFD8A316" Height="50"                         FontFamily="Global User Interface"/>
-        <Button x:ConnectionId='4' x:Name="btnSaved" Content="Saved Numbers" HorizontalAlignment="Left" Margin="396,480,0,0" VerticalAlignment="Top" Width="242"  Background="#FF1263B4" Foreground="#FFD8A316" Height="50"                        FontFamily="Global User Interface"/>
+        <Button x:ConnectionId='3' x:Name="btnSearch" Content="Browse Previous Results" HorizontalAlignment="Left" Margin="396,613,0,0" VerticalAlignment="Top" Width="243" Background="#FF1263B4" Foreground="#FFD8A316" Height="50"                         FontFamily="Global User Interface"/>
+        <Button x:ConnectionId='4' x:Name="btnSaved" Content="View Your Saved Numbers" HorizontalAlignment="Left" Margin="396,494,0,0" VerticalAlignment="Top" Width="503"  Background="#FF1263B4" Foreground="#FFD8A316" Height="50"                        FontFamily="Global User Interface"/>
 
         <ListBox x:Name="lstDisplaySaved" HorizontalAlignment="Left" Height="93" Margin="396,390,0,0" VerticalAlignment="Top" Width="500" BorderBrush="#FFF32A0B"/>
         <StackPanel x:Name="testing" Orientation="Horizontal" HorizontalAlignment="Left" Height="70" Margin="403,243,0,0" VerticalAlignment="Top" Width="396"/>
         <StackPanel x:Name="bonus" Orientation="Horizontal" Height="70" Margin="846,243,401,0" VerticalAlignment="Top"/>
         <AppBarButton x:ConnectionId='5' HorizontalAlignment="Left" Icon="Back" Label="Back" Margin="4,4,0,0" VerticalAlignment="Top"                             />
-        <TextBlock HorizontalAlignment="Left" Margin="601,55,0,0" TextWrapping="Wrap" Text="Lotto Results" VerticalAlignment="Top" Height="70" Width="295" FontSize="50" RenderTransformOrigin="0.499,0.014"/>
+        <TextBlock HorizontalAlignment="Left" Margin="641,55,0,0" TextWrapping="Wrap" Text="Lotto Results" VerticalAlignment="Top" Height="70" Width="295" FontSize="50" RenderTransformOrigin="0.499,0.014"/>
         <Image HorizontalAlignment="Left" Height="74" Margin="134,55,0,0" VerticalAlignment="Top" Width="494" Source="Image/salotteryresult_logo.png" />
+        <TextBlock HorizontalAlignment="Left" Margin="628,176,0,0" TextWrapping="Wrap" Text="Winning Results" VerticalAlignment="Top" Foreground="#FFF7F4F4" FontSize="26" TextAlignment="Center"/>
     </Grid>
 </Page>
 

@@ -7,14 +7,20 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
+    <Page.BottomAppBar>
+        <CommandBar Height="70" IsSticky="False">
+            <AppBarButton Grid.Column="1" HorizontalAlignment="Center" Label="Log In" Click="AppBarButton_Click" />
+        </CommandBar>
+
+    </Page.BottomAppBar>
 
     <Grid Background="#FF38B2B8">
-        <Button x:Name="btnResults" Content="View Results"   Height="106" Width="168" Background="#FF1263B4" Foreground="#FFD8A316" Margin="19,420,0,114" Click="btnResults_Click"/>
-        <Button x:Name="btnSettings" Content="Settings" Width="168" Height="108"  Background="#FF1263B4" Foreground="#FFD8A316" Margin="214,419,0,113" Click="btnSettings_Click"/>
-        <Button x:Name="btnGenerate" Content="Generate"  Height="100" Width="168" Background="#FF1263B4" Foreground="#FFD8A316" Margin="212,266,0,274" Click="btnGenerate_Click"/>
-        <Button x:Name="btnDetails" Content="Add Details" Width="168" Height="100"  Background="#FF1263B4" Foreground="#FFD8A316" Margin="16,266,0,274" Click="btnDetails_Click"/>
+        <Button x:Name="btnResults" Content="View Results"   Height="100" Width="168" Background="#FF1263B4" Foreground="#FFD8A316" Margin="21,361,0,119" Click="btnResults_Click"/>
+        <Button x:Name="btnSettings" Content="Settings" Width="168" Height="100"  Background="#FF1263B4" Foreground="#FFD8A316" Margin="216,361,0,119" Click="btnSettings_Click"/>
+        <Button x:Name="btnGenerate" Content="Generate"  Height="100" Width="168" Background="#FF1263B4" Foreground="#FFD8A316" Margin="214,204,0,276" Click="btnGenerate_Click"/>
+        <Button x:Name="btnDetails" Content="Add Details" Width="168" Height="100"  Background="#FF1263B4" Foreground="#FFD8A316" Margin="18,204,0,276" Click="btnDetails_Click"/>
         <!--<Image Grid.Row="0" Source="Image/01XSAN-IM1001-sands-resort-mauritius-1475.jpg" HorizontalAlignment="Left" VerticalAlignment="Top"/>-->
-        <TextBlock Margin="8,100,62,504" TextWrapping="Wrap" Text="National Lottery Results" Width="330" HorizontalAlignment="Center" FontSize="30" Foreground="#FFF9F8F8" FlowDirection="LeftToRight"/>
+        <TextBlock Margin="18,100,52,432" TextWrapping="Wrap" Text="National Lottery Results" Width="330" HorizontalAlignment="Center" FontSize="30" Foreground="#FFF9F8F8" FlowDirection="LeftToRight"/>
         <Image HorizontalAlignment="Left" Height="74" VerticalAlignment="Top" Width="309" Source="Image/salotteryresult_logo.png" Margin="8,8,0,0"/>
 
     </Grid>

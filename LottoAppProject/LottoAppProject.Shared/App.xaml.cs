@@ -65,6 +65,7 @@ namespace LottoAppProject
 
 
                 dbase.CreateTable<User>();
+                dbase.CreateTable<Administrator>();
 
                 dbase.CreateTable<LottoLiveResults>();
                 dbase.CreateTable<LottoPlusResults>();
@@ -273,9 +274,26 @@ namespace LottoAppProject
                     num5 = 33
                 },
             };
-            SQLiteAsyncConnection conn = new SQLiteAsyncConnection("LottoSA.db");
+            SQLiteAsyncConnection conn = new SQLiteAsyncConnection("LottoAppProject.db");
             await conn.InsertAllAsync(store);
         }
+
+        private async Task AdministratorAsync()
+        {
+            var Admin = new List<Administrator>()
+            {
+                new Administrator()
+                {
+                    firstName = "Buti",
+                    surname = "Bisho",
+                    email = "sbmbisho@gmail.com",
+                    password = "1234"
+                },
+            };
+            SQLiteAsyncConnection conn = new SQLiteAsyncConnection("LottoAppProject.db");
+            await conn.InsertAllAsync(Admin);
+        }
+
 
     }
 }

@@ -86,3 +86,8 @@ C:\Users\Buti Samuel Bisho\Documents\Visual Studio 2013\Projects\LottoAppProject
 C:\Users\Buti Samuel Bisho\Documents\Visual Studio 2013\Projects\LottoAppProject\LottoAppProject\LottoAppProject.Windows\obj\x86\Debug\qualifiers.txt.intermediate
 C:\Users\Buti Samuel Bisho\Documents\Visual Studio 2013\Projects\LottoAppProject\LottoAppProject\LottoAppProject.Windows\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
 C:\Users\Buti Samuel Bisho\Documents\Visual Studio 2013\Projects\LottoAppProject\LottoAppProject\LottoAppProject.Windows\obj\x86\Debug\ProjectArchitectures.txt
+C:\Users\Buti Samuel Bisho\Documents\Visual Studio 2013\Projects\LottoAppProject\LottoAppProject\LottoAppProject.Windows\bin\x86\Debug\LogIn.xbf
+C:\Users\Buti Samuel Bisho\Documents\Visual Studio 2013\Projects\LottoAppProject\LottoAppProject\LottoAppProject.Windows\obj\x86\Debug\LogIn.g.i.cs
+C:\Users\Buti Samuel Bisho\Documents\Visual Studio 2013\Projects\LottoAppProject\LottoAppProject\LottoAppProject.Windows\obj\x86\Debug\LogIn.g.cs
+C:\Users\Buti Samuel Bisho\Documents\Visual Studio 2013\Projects\LottoAppProject\LottoAppProject\LottoAppProject.Windows\obj\x86\Debug\LogIn.xaml
+C:\Users\Buti Samuel Bisho\Documents\Visual Studio 2013\Projects\LottoAppProject\LottoAppProject\LottoAppProject.Windows\obj\x86\Debug\LogIn.xbf
