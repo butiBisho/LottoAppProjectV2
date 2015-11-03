@@ -15,10 +15,10 @@
     </Page.BottomAppBar>
 
     <Grid Background="#FF38B2B8">
-        <Button x:Name="btnResults" Content="View Results"   Height="100" Width="168" Background="#FF1263B4" Foreground="#FFD8A316" Margin="21,361,0,119" Click="btnResults_Click"/>
-        <Button x:Name="btnSettings" Content="Settings" Width="168" Height="100"  Background="#FF1263B4" Foreground="#FFD8A316" Margin="216,361,0,119" Click="btnSettings_Click"/>
-        <Button x:Name="btnGenerate" Content="Generate"  Height="100" Width="168" Background="#FF1263B4" Foreground="#FFD8A316" Margin="214,204,0,276" Click="btnGenerate_Click"/>
-        <Button x:Name="btnDetails" Content="Add Details" Width="168" Height="100"  Background="#FF1263B4" Foreground="#FFD8A316" Margin="18,204,0,276" Click="btnDetails_Click"/>
+        <Button x:Name="btnResults" Content="Results"   Height="100" Width="195" Background="#FF1263B4" Foreground="#FFD8A316" Margin="122,164,0,316" Click="btnResults_Click"/>
+        <Button x:Name="btnSettings" Content="Settings" Width="195" Height="100"  Background="#FF1263B4" Foreground="#FFD8A316" Margin="122,443,0,37" Click="btnSettings_Click"/>
+        <Button x:Name="btnGenerate" Content="Number Generator"  Height="100" Width="195" Background="#FF1263B4" Foreground="#FFD8A316" Margin="122,304,0,176" Click="btnGenerate_Click"/>
+        <!--<Button x:Name="btnDetails" Content="Add Details" Width="168" Height="100"  Background="#FF1263B4" Foreground="#FFD8A316" Margin="18,204,0,276" Click="btnDetails_Click"/>-->
         <!--<Image Grid.Row="0" Source="Image/01XSAN-IM1001-sands-resort-mauritius-1475.jpg" HorizontalAlignment="Left" VerticalAlignment="Top"/>-->
         <TextBlock Margin="18,100,52,432" TextWrapping="Wrap" Text="National Lottery Results" Width="330" HorizontalAlignment="Center" FontSize="30" Foreground="#FFF9F8F8" FlowDirection="LeftToRight"/>
         <Image HorizontalAlignment="Left" Height="74" VerticalAlignment="Top" Width="309" Source="Image/salotteryresult_logo.png" Margin="8,8,0,0"/>

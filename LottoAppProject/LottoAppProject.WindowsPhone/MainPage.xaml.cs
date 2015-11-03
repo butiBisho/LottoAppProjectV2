@@ -51,10 +51,10 @@ namespace LottoAppProject
             // this event is handled for you.
         }
 
-        private void btnDetails_Click(object sender, RoutedEventArgs e)
-        {
-            this.Frame.Navigate(typeof(SaveResults));
-        }
+        //private void btnDetails_Click(object sender, RoutedEventArgs e)
+        //{
+        //    this.Frame.Navigate(typeof(SaveResults));
+        //}
 
         private async void btnResults_Click(object sender, RoutedEventArgs e)
         {

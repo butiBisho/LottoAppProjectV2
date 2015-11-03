@@ -14,8 +14,8 @@
                     <ColumnDefinition Width="3*"/>
                     <ColumnDefinition Width="2*"/>
                     <ColumnDefinition Width="3*"/>
-                </Grid.ColumnDefinitions>                
-                <AppBarButton Grid.Column="1" HorizontalAlignment="Center" Label="Log In" Click="AppBarButton_Click" />                
+                </Grid.ColumnDefinitions>
+                <AppBarButton Grid.Column="1" HorizontalAlignment="Center" Label="Log In" Click="AppBarButton_Click" />
             </Grid>
         </AppBar>
     </Page.BottomAppBar>
@@ -25,10 +25,10 @@
             <RowDefinition Height="*"/>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
-        <Button x:Name="btnResults" Content="View Results"   Height="126" Width="210" Background="#FF1263B4" Foreground="#FFD8A316" Margin="398,49,0,209" Grid.Row="1" Click="btnResults_Click" FontSize="20"/>
-        <Button x:Name="btnSettings" Content="Settings" Width="208" Height="126"  Background="#FF1263B4" Foreground="#FFD8A316" Margin="798,49,0,209" Grid.Row="1" Click="btnSettings_Click" FontSize="20" />
-        <Button x:Name="btnGenerate" Content="Generate"  Height="118" Width="212" Background="#FF1263B4" Foreground="#FFD8A316" Margin="794,240,0,26" Click="btnGenerate_Click" FontSize="20" />
-        <Button x:Name="btnDetails" Content="Add Results" Width="210" Height="118"  Background="#FF1263B4" Foreground="#FFD8A316" Margin="398,240,0,26" Click="btnDetails_Click" FontSize="20"/>
+        <Button x:Name="btnResults" Content="Results"   Height="126" Width="210" Background="#FF1263B4" Foreground="#FFD8A316" Margin="598,196,0,62" Click="btnResults_Click" FontSize="20"/>
+        <Button x:Name="btnSettings" Content="Settings" Width="208" Height="126"  Background="#FF1263B4" Foreground="#FFD8A316" Margin="596,135,0,0" Grid.Row="1" Click="btnSettings_Click" FontSize="20" VerticalAlignment="Top" />
+        <Button x:Name="btnGenerate" Content="Number Generator"  Height="118" Width="212" Background="#FF1263B4" Foreground="#FFD8A316" Margin="596,361,0,289" Click="btnGenerate_Click" FontSize="20" Grid.RowSpan="2" />
+        <!--<Button x:Name="btnDetails" Content="Add Results" Width="210" Height="118"  Background="#FF1263B4" Foreground="#FFD8A316" Margin="398,240,0,26" Click="btnDetails_Click" FontSize="20"/>-->
         <!--<Image Grid.Row="0" Source="Image/01XSAN-IM1001-sands-resort-mauritius-1475.jpg" HorizontalAlignment="Left" VerticalAlignment="Top" Stretch="UniformToFill"/>-->
         <TextBlock Margin="0,82,199,237" TextWrapping="Wrap" Text="National Lottery Results" Width="527" HorizontalAlignment="Right" FontSize="50" Foreground="#FFF9F8F8" />
         <Image HorizontalAlignment="Left" Height="74" Margin="134,81,0,0" VerticalAlignment="Top" Width="494" Source="Image/salotteryresult_logo.png" />
