@@ -31,6 +31,8 @@
     <Compile Include="$(MSBuildThisFileDirectory)Model_Class\PowerBallResults.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Model_Class\PowerBallSaved.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Model_Class\User.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)New\Query.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)New\Variables.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)SQLITE\SQLite.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)SQLITE\SQLiteAsync.cs" />
   </ItemGroup>

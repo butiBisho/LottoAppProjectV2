@@ -7,12 +7,6 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <Page.BottomAppBar>
-        <CommandBar Height="70" IsSticky="False">
-            <AppBarButton Grid.Column="1" HorizontalAlignment="Center" Label="Log In" Click="AppBarButton_Click" />
-        </CommandBar>
-
-    </Page.BottomAppBar>
 
     <Grid Background="#FF38B2B8">
         <Button x:Name="btnResults" Content="Results"   Height="100" Width="195" Background="#FF1263B4" Foreground="#FFD8A316" Margin="122,164,0,316" Click="btnResults_Click"/>

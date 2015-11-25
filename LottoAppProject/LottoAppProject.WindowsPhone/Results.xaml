@@ -12,6 +12,7 @@
             <AppBarButton Label="Delete" Icon="Delete" Click="AppBarButton_Click_3"/>
             <AppBarButton Label="Back" Icon="Back" Click="AppBarButton_Click_1"/>
             <AppBarButton Label="Refresh" Icon="Refresh" Click="AppBarButton_Click_2"/>
+            <AppBarButton x:Name="abbLogin" Grid.Column="2" HorizontalAlignment="Right" Label="Log In" Click="abbLogin_Click"  />
         </CommandBar>
     </Page.BottomAppBar>
 
@@ -29,7 +30,7 @@
         <StackPanel x:Name="testing" Orientation="Horizontal" Margin="20" VerticalAlignment="Top"/>
         <StackPanel x:Name="bonus" Orientation="Horizontal" HorizontalAlignment="Left" Height="70" Margin="148,214,0,0" VerticalAlignment="Top" Width="100"/>
         <DatePicker x:Name="dpDate" HorizontalAlignment="Left" Height="51" Margin="10,469,0,0" VerticalAlignment="Top" Width="319" DayVisible="True"/>
-        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Lotto Results" VerticalAlignment="Top" Height="30" Width="168" FontSize="25" Margin="3,74,0,0"/>
+        <TextBlock x:Name="txtSign" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Lotto Results" VerticalAlignment="Top" Height="30" Width="314" FontSize="25" Margin="3,74,0,0"/>
         <Image HorizontalAlignment="Left" Height="57" VerticalAlignment="Top" Width="309" Source="Image/salotteryresult_logo.png" Margin="8,2,0,0"/>
     </Grid>
 </Page>

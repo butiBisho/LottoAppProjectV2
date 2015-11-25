@@ -26,11 +26,6 @@ namespace LottoAppProject
         public MainPage()
         {
             this.InitializeComponent();
-            if (this.BottomAppBar != null)
-            {
-                this.BottomAppBar.IsSticky = false;
-                this.BottomAppBar.IsOpen = true;
-            } 
 
             this.NavigationCacheMode = NavigationCacheMode.Required;
         }
@@ -126,10 +121,6 @@ namespace LottoAppProject
             this.Frame.Navigate(typeof(NumberGeneratorPowerball));
         }
 
-        private void AppBarButton_Click(object sender, RoutedEventArgs e)
-        {
-            this.Frame.Navigate(typeof(LogIn));
-        }
 
     }
 }

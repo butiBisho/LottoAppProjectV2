@@ -34,11 +34,11 @@ namespace LottoAppProject
         //display saved numbers
         buti buti = null;
         ObservableCollection<DisplayResults> DisplayResults = null;
-        ObservableCollection<Lotto> Maximum = null;
-        List<int> arrayID = new List<int>();
+        //ObservableCollection<Lotto> Maximum = null;
+        //List<int> arrayID = new List<int>();
 
         List<int> arrayDelete = new List<int>();
-
+        
         public Results()
         {
             this.InitializeComponent();
@@ -49,21 +49,15 @@ namespace LottoAppProject
                 this.BottomAppBar.IsOpen = true;
             }
             numbers.Clear();
-            int id = MaxValue();
-            var data = winnings.RetrievingUsingMaxValue(id);
-            if(data != null)
-            {
-                numbers.Add(data.num1);
-                numbers.Add(data.num2);
-                numbers.Add(data.num3);
-                numbers.Add(data.num4);
-                numbers.Add(data.num5);
-                numbers.Add(data.num6);
-                numbers.Add(data.bonus);
-                Shared.DrawBonus(ref bonus, ref numbers);
-                Shared.DrawTesting(ref testing, ref numbers);
-            }
-
+            numbers.Add(04);
+            numbers.Add(06);
+            numbers.Add(08);
+            numbers.Add(09);
+            numbers.Add(29);
+            numbers.Add(42);
+            numbers.Add(46);            
+            Shared.DrawBonus(ref bonus, ref numbers);
+            Shared.DrawTesting(ref testing, ref numbers);
         }
 
         private void btnSearch_Click(object sender, RoutedEventArgs e)
@@ -92,6 +86,7 @@ namespace LottoAppProject
                         numbers.Add(data.bonus);
                         Shared.DrawBonus(ref bonus, ref numbers);
                         Shared.DrawTesting(ref testing, ref numbers);
+                        txtSign.Text = "Lotto Results";
                         //LstResults.Items.Add(details);
                     }
                     else
@@ -114,6 +109,7 @@ namespace LottoAppProject
                         numbers.Add(data.bonus);
                         Shared.DrawBonus(ref bonus, ref numbers);
                         Shared.DrawTesting(ref testing, ref numbers);
+                        txtSign.Text = "LottoPlus Results";
                         //LstResults.Items.Add(details);
                     }
                     else
@@ -136,6 +132,7 @@ namespace LottoAppProject
                         numbers.Add(data.bonusP);
                         Shared.DrawBonus(ref bonus, ref numbers);
                         Shared.DrawTesting(ref testing, ref numbers);
+                        txtSign.Text = "Powerball Results";
                         //LstResults.Items.Add(details);
                     }
                     else
@@ -147,14 +144,14 @@ namespace LottoAppProject
             catch (Exception ex)
             {
                 msg.msgBox(ex.ToString());
-            }
+            }            
         }
 
         private void btnSaved_Click(object sender, RoutedEventArgs e)
         {
             try
             {
-                arrayDelete.Clear();
+                //arrayDelete.Clear();
                 int count = 1;
                 lstDisplaySaved.Items.Clear();
                 string combo = ((ComboBoxItem)cmbGameType.SelectedItem).Content.ToString();
@@ -167,25 +164,7 @@ namespace LottoAppProject
                     {
                         foreach (var r in DisplayResults)
                         {
-                            lstDisplaySaved.Items.Add("Row number " + count.ToString() + " : "+ r.Num1 + " " + r.Num2 + " " + r.Num3 + " " + r.Num4 + " " + r.Num5 + " " + r.Num6);
-                            arrayDelete.Add(r.Id);
-                            count++;
-                        }                                          
-                    }
-                    else
-                    {
-                        lstDisplaySaved.Items.Add("NO DATA FOUND");
-                    }
-                }
-                else
-                {
-                    buti = new buti();
-                    DisplayResults = buti.getPowerballRows();
-                    if (DisplayResults != null)
-                    {
-                        foreach (var r in DisplayResults)
-                        {
-                            lstDisplaySaved.Items.Add("Row number " + count.ToString() + " : " + r.Num1 + " " + r.Num2 + " " + r.Num3 + " " + r.Num4 + " " + r.Num5);
+                            lstDisplaySaved.Items.Add("Row number " + count.ToString() + " : " +r.Num1 + " " + r.Num2 + " " + r.Num3 + " " + r.Num4 + " " + r.Num5 + " " + r.Num6);
                             arrayDelete.Add(r.Id);
                             count++;
                         }
@@ -235,14 +214,16 @@ namespace LottoAppProject
             {
                 string combo = ((ComboBoxItem)cmbGameType.SelectedItem).Content.ToString();
                 int selectedGameType = GT.gameType(combo);
-                if(selectedGameType == 1 || selectedGameType == 2)
+                if (selectedGameType == 1 || selectedGameType == 2)
                 {
                     deleteRowOnLottoSaved(arrayDelete[lstDisplaySaved.SelectedIndex]);
+                    lstDisplaySaved.Items.Clear();
                     msg.msgBox("the line selected is successfully deleted.");
                 }
                 else
                 {
                     deleteRowOnPowerballSaved(arrayDelete[lstDisplaySaved.SelectedIndex]);
+                    lstDisplaySaved.Items.Clear();
                     msg.msgBox("the line selected is successfully deleted.");
                 }
             }
@@ -252,21 +233,21 @@ namespace LottoAppProject
             }
         }
 
-        public int MaxValue()
-        {            
-            buti = new buti();
-            Maximum = buti.getIdValues();
-            if (Maximum != null)
-            {
-                foreach (var r in Maximum)
-                {
-                    //lstTest.Items.Add(r.IdNumber);
-                    arrayID.Add(r.IdNumber);
-                }
-            }
-            int count = arrayID.Count;
-            return arrayID[count - 1];            
-        }
+        //public int MaxValue()
+        //{            
+        //    buti = new buti();
+        //    Maximum = buti.getIdValues();
+        //    if (Maximum != null)
+        //    {
+        //        foreach (var r in Maximum)
+        //        {
+        //            //lstTest.Items.Add(r.IdNumber);
+        //            arrayID.Add(r.IdNumber);
+        //        }
+        //    }
+        //    int count = arrayID.Count;
+        //    return arrayID[count - 1];            
+        //}
 
         public void deleteRowOnLottoSaved(int id)
         {
@@ -289,6 +270,10 @@ namespace LottoAppProject
             Frame.GoBack();
         }
 
-
+        private void abbLogin_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(LogIn));
+        }
+        
     }
 }

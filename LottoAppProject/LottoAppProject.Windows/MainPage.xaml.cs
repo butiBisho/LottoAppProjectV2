@@ -26,17 +26,8 @@ namespace LottoAppProject
         public MainPage()
         {
             this.InitializeComponent();
-            if (this.BottomAppBar != null)
-            {
-                this.BottomAppBar.IsSticky = false;
-                this.BottomAppBar.IsOpen = true;
-            } 
-        }
 
-        //private void btnDetails_Click(object sender, RoutedEventArgs e)
-        //{
-        //    this.Frame.Navigate(typeof(SaveResults));
-        //}
+        }
 
         private async void btnResults_Click(object sender, RoutedEventArgs e)
         {
@@ -52,10 +43,6 @@ namespace LottoAppProject
             UICommand powerballBtn = new UICommand("Powerball");
             powerballBtn.Invoked = powerballBtnClick;
             msgDialog.Commands.Add(powerballBtn);
-
-            //UICommand cancelBtn = new UICommand("Cancel");
-            //cancelBtn.Invoked = cancelBtnClick;
-            //msgDialog.Commands.Add(cancelBtn);
 
             await msgDialog.ShowAsync();
         }
@@ -107,12 +94,9 @@ namespace LottoAppProject
             this.Frame.Navigate(typeof(NumberGeneratorPowerball));
         }
 
-        private void AppBarButton_Click(object sender, RoutedEventArgs e)
-        {
-            this.Frame.Navigate(typeof(LogIn));
-        }
-
-
-
+        //private void AppBarButton_Click(object sender, RoutedEventArgs e)
+        //{
+        //    this.Frame.Navigate(typeof(LogIn));
+        //}
     }
 }
